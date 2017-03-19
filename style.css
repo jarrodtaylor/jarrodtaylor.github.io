@@ -96,7 +96,37 @@ div#banner div#vcard {
   background-size: 50%;
 }
 
-div#stars img { height: 100px; }
+div#stars div {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  background-image: url('images/icons/star-empty.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
+div#stars div:hover { cursor: pointer; }
+
+div#stars.one-star div:nth-child(1) { background-image: url('images/icons/star-fill.svg'); }
+
+div#stars.two-stars div:nth-child(1) { background-image: url('images/icons/star-fill.svg'); }
+div#stars.two-stars div:nth-child(2) { background-image: url('images/icons/star-fill.svg'); }
+
+div#stars.three-stars div:nth-child(1) { background-image: url('images/icons/star-fill.svg'); }
+div#stars.three-stars div:nth-child(2) { background-image: url('images/icons/star-fill.svg'); }
+div#stars.three-stars div:nth-child(3) { background-image: url('images/icons/star-fill.svg'); }
+
+div#stars.four-stars div:nth-child(1) { background-image: url('images/icons/star-fill.svg'); }
+div#stars.four-stars div:nth-child(2) { background-image: url('images/icons/star-fill.svg'); }
+div#stars.four-stars div:nth-child(3) { background-image: url('images/icons/star-fill.svg'); }
+div#stars.four-stars div:nth-child(4) { background-image: url('images/icons/star-fill.svg'); }
+
+div#stars.five-stars div:nth-child(1) { background-image: url('images/icons/star-fill.svg'); }
+div#stars.five-stars div:nth-child(2) { background-image: url('images/icons/star-fill.svg'); }
+div#stars.five-stars div:nth-child(3) { background-image: url('images/icons/star-fill.svg'); }
+div#stars.five-stars div:nth-child(4) { background-image: url('images/icons/star-fill.svg'); }
+div#stars.five-stars div:nth-child(5) { background-image: url('images/icons/star-fill.svg'); }
 
 p.lede {
   font-size: 1.5em;
