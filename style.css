@@ -1,3 +1,135 @@
+html { border-top: 7px solid black; }
+
 body {
   background-color: #f6f8fa;
+  color: SlateGray;
+  font-family: 'Courgette', cursive;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 5em auto;
+  max-width: 960px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Asap', sans-serif;
+  color: black;
+  font-size: 64px;
+  line-height: 72px;
+}
+
+div#banner { vertical-align: center; }
+
+div#banner div {
+  height: 5em;
+  width: 5em;
+  display: inline-block;
+  margin: 0 1.75em;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px SlateGray;
+  position: relative;
+}
+
+div#banner div.small {
+  height: 3em;
+  width: 3em;
+  transform: translateY(-4em);
+  border: .5em solid white;
+}
+
+div#banner div.medium {
+  height: 7em;
+  width: 7em;
+  transform: translateY(-2em);
+  border: .5em solid white;
+}
+
+div#banner div.large {
+  height: 11em;
+  width: 11em;
+  border: .5em solid #000000;
+}
+
+div#banner div#dot-left { background-color: #FF9500; }
+
+div#banner div#twitter {
+  background-color: #5AC8FA;
+  background-image: url('images/icons/twitter.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50%;
+}
+
+div#banner div#avatar {
+  background-image: url('images/avatars/0.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+div#banner div#email {
+  background-color: #FF3B30;
+  background-image: url('images/icons/email.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50%;
+}
+
+div#banner div#dot-right { background-color: #FFCC00; }
+
+div#stars img { height: 100px; }
+
+p.lede {
+  font-size: 1.5em;
+  line-height: 48px;
+}
+
+@media (max-width: 1024px) {
+  div#banner div { margin: 0 -1.25em; }
+  div#banner div.small { z-index: 1; }
+  div#banner div.medium { z-index: 2; }
+  div#banner div.large { z-index: 3; }
+}
+
+@media (max-width: 640px) {
+  body { margin: 1em auto; }
+
+  h1 { font-size: 48px; }
+
+  div#banner div.small {
+    height: 1em;
+    width: 1em;
+    transform: translateY(-2em);
+    border: .25em solid white;
+    margin: 0 -.75em;
+  }
+
+  div#banner div.medium {
+    height: 3em;
+    width: 3em;
+    transform: translateY(-1em);
+    border: .25em solid white;
+    margin: 0 -.1em;
+  }
+
+  div#banner div.large {
+    height: 5em;
+    width: 5em;
+    border: .25em solid #000000;
+  }
+
+  div#stars img { height: 50px; }
+
+  p.lede {
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 380px) {
+  p.lede {
+    font-size: 12px;
+    line-height: 24px;
+  }
 }
