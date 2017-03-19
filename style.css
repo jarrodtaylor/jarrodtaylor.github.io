@@ -1,15 +1,18 @@
-html { border-top: 7px solid black; }
+html {
+  border-top: .5em solid black;
+}
 
 body {
   background-color: #f6f8fa;
   color: SlateGray;
-  font-family: 'Courgette', cursive;
+  font-family: 'Indie Flower', cursive;
   font-size: 17px;
   font-weight: 400;
   line-height: 24px;
   margin: 5em auto;
   max-width: 960px;
   text-align: center;
+  /*margin-top: 1em;*/
 }
 
 h1 {
@@ -17,6 +20,7 @@ h1 {
   color: black;
   font-size: 64px;
   line-height: 72px;
+  text-transform: uppercase;
 }
 
 div#banner { vertical-align: center; }
@@ -27,7 +31,7 @@ div#banner div {
   display: inline-block;
   margin: 0 1.5em;
   border-radius: 50%;
-  box-shadow: 0px 0px 1px SlateGray;
+  box-shadow: 0px 0px 3px SlateGray;
   position: relative;
 }
 
@@ -37,7 +41,7 @@ div#banner div.small {
   height: 3em;
   width: 3em;
   transform: translateY(-4em);
-  border: .5em solid white;
+  border: .5em dashed white;
   z-index: 1;
 }
 
@@ -45,14 +49,14 @@ div#banner div.medium {
   height: 7em;
   width: 7em;
   transform: translateY(-2em);
-  border: .5em solid white;
+  border: .5em dashed white;
   z-index: 2;
 }
 
 div#banner div.large {
   height: 11em;
   width: 11em;
-  border: .5em solid #000000;
+  border: .5em dashed #000000;
   z-index: 3;
 }
 
@@ -141,13 +145,13 @@ p.lede {
 @media (max-width: 640px) {
   body { margin: 1em auto; }
 
-  h1 { font-size: 48px; }
+  h1 { font-size: 36px; }
 
   div#banner div.small {
     height: 1em;
     width: 1em;
     transform: translateY(-2em);
-    border: .25em solid white;
+    border-width: .25em;
     margin: 0 2em;
   }
 
@@ -155,18 +159,21 @@ p.lede {
     height: 3em;
     width: 3em;
     transform: translateY(-1em);
-    border: .25em solid white;
+    border-width: .25em;
     margin: 0 -2.75em;
   }
 
   div#banner div.large {
     height: 5em;
     width: 5em;
-    border: .25em solid #000000;
+    border-width: .25em;
     background-color: white;
   }
 
-  div#stars img { height: 50px; }
+  div#stars div {
+    height: 50px;
+    width: 50px;
+  }
 
   p.lede {
     font-size: 17px;
@@ -176,7 +183,7 @@ p.lede {
 
 @media (max-width: 380px) {
   p.lede {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 24px;
   }
 }
