@@ -31,11 +31,14 @@ div#banner div {
   position: relative;
 }
 
+div#banner div:hover { cursor: pointer; }
+
 div#banner div.small {
   height: 3em;
   width: 3em;
   transform: translateY(-4em);
   border: .5em solid white;
+  z-index: 1;
 }
 
 div#banner div.medium {
@@ -43,15 +46,23 @@ div#banner div.medium {
   width: 7em;
   transform: translateY(-2em);
   border: .5em solid white;
+  z-index: 2;
 }
 
 div#banner div.large {
   height: 11em;
   width: 11em;
   border: .5em solid #000000;
+  z-index: 3;
 }
 
-div#banner div#dot-left { background-color: #FFCC00; }
+div#banner div#rss {
+  background-color: #FFCC00;
+  background-image: url('images/icons/rss.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50%;
+}
 
 div#banner div#twitter {
   background-color: #5AC8FA;
@@ -77,7 +88,13 @@ div#banner div#email {
   background-size: 50%;
 }
 
-div#banner div#dot-right { background-color: #FF9500; }
+div#banner div#vcard {
+  background-color: #FF9500;
+  background-image: url('images/icons/vcard.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50%;
+}
 
 div#stars img { height: 100px; }
 
@@ -87,10 +104,8 @@ p.lede {
 }
 
 @media (max-width: 1024px) {
-  div#banner div { margin: 0 -1.25em; }
-  div#banner div.small { z-index: 1; }
-  div#banner div.medium { z-index: 2; }
-  div#banner div.large { z-index: 3; }
+  div#banner div.small  { margin: 0 2em;  }
+  div#banner div.medium { margin: 0 -4em; }
 }
 
 @media (max-width: 640px) {
@@ -103,7 +118,7 @@ p.lede {
     width: 1em;
     transform: translateY(-2em);
     border: .25em solid white;
-    margin: 0 -.75em;
+    margin: 0 2em;
   }
 
   div#banner div.medium {
@@ -111,7 +126,7 @@ p.lede {
     width: 3em;
     transform: translateY(-1em);
     border: .25em solid white;
-    margin: 0 -.1em;
+    margin: 0 -2.75em;
   }
 
   div#banner div.large {
