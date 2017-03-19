@@ -1,7 +1,6 @@
 var swapAvatar = function() {
-  var num = Math.floor(Math.random() * 9)
-  console.log(num)
-  document.getElementById('avatar').style.backgroundImage = "url('images/avatars/"+num+".jpg')";
+  var num = Math.floor(Math.random() * 9) * 12.5
+  document.getElementById('avatar').style.backgroundPosition = num + "% 0%";
   setTimeout(swapAvatar, 3000)
 }
 
