@@ -53,6 +53,7 @@ div#banner div.medium {
 }
 
 div#banner div.large {
+  background-color: white;
   height: 11em;
   width: 11em;
   border: .5em dashed #000000;
@@ -79,7 +80,6 @@ div#banner div#avatar {
   background-image: url('images/avatar.png');
   background-repeat: no-repeat;
   background-position: 0% 0%;
-  background-size: 11em;
   background-size: cover;
 }
 
