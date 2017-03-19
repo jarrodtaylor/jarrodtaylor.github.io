@@ -117,6 +117,7 @@ p.lede {
     height: 5em;
     width: 5em;
     border: .25em solid #000000;
+    background-color: white;
   }
 
   div#stars img { height: 50px; }
