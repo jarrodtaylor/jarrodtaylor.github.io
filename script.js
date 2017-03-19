@@ -17,10 +17,24 @@ var setStars = function(starClass) {
 
 var thanks = function(num) {
   switch(num) {
-    case 1: confirm("Seriously, that's it?"); break
-    case 2: confirm("Are you sure? That's only two stars."); break
-    case 3: confirm("Try again. And a little to the right this time."); break
-    case 4: confirm("That's almost enough. How about one more?"); break
-    default: alert("Awesome!")
+    case 1:
+      document.getElementById('stars').className = "one-star"
+      confirm("Seriously, that's it?")
+      break
+    case 2:
+      document.getElementById('stars').className = "two-stars"
+      confirm("Are you sure? That's only two stars.")
+      break
+    case 3:
+      document.getElementById('stars').className = "three-stars"
+      confirm("Try again. And a little to the right this time.")
+      break
+    case 4:
+      document.getElementById('stars').className = "four-stars"
+      confirm("That's almost enough. How about one more?")
+      break
+    default:
+      document.getElementById('stars').className = "five-stars"
+      alert("Awesome!")
   }
 }
