@@ -1,9 +1,98 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>Jarrod Taylor</title>
+    <style>
+      @font-face {
+        font-family: "text";
+        font-style: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        letter-spacing: -.01em;
+        src: url("/fonts/regular.woff2") format("woff2"), url("/fonts/regular.woff") format("woff"); }
+      @font-face {
+        font-family: "text";
+        font-style: normal;
+        font-weight: bold;
+        font-stretch: normal;
+        letter-spacing: -.01em;
+        src: url("/fonts/bold.woff2") format("woff2"), url("/fonts/bold.woff") format("woff"); }
+      @font-face {
+        font-family: "text";
+        font-style: italic;
+        font-weight: normal;
+        font-stretch: normal;
+        letter-spacing: -.01em;
+        src: url("/fonts/italic.woff2") format("woff2"), url("/fonts/italic.woff") format("woff"); }
+        
+      body {
+        color: #333;
+        font-family: "text";
+        font-size: 18px;
+        line-height: 2em;
+        max-width: 620px;
+        margin: auto;
+        padding: 20px;
+      }
+      
+      body > img:first-of-type {
+        border-radius: 50%;
+        float: right;
+        height: 8.07em;
+        margin-top: 5px;
+      }
+      
+      @media (max-width: 660px) {
+        body > img:first-of-type {
+          display: none;
+        }
+      }
+      
+      h1 {
+        font-size: 4em;
+        line-height: 1em;
+        margin-bottom: 0;
+      }
+      
+      body > p:first-of-type {
+        font-size: 1.333em;
+      }
+      
+      p { line-height: 1.5em; }
+      
+      a, a:visited {
+        color: #492B88;
+        font-weight: bold;
+      }
+      
+      a:hover {
+        background-color: #492B88;
+        color: white;
+        margin-left: -3px;
+        margin-right: -3px;
+        padding-left: 3px;
+        padding-right: 3px;
+        text-decoration: none;
+      }
+    </style>
   </head>
   <body>
-    Hello world!
+    <img src="/images/profile.jpeg" />
+    <h1>Jarrod Taylor</h1>
+    <p>
+      Distiller of useless skills. Sports car enthusiast.
+      Writer, programmer, podcaster.
+      Rock &apos;n&apos; roll dilettante and caffeine addict.
+      Also, sometimes I make things.
+    </p>
+    <p>
+      You can email me at <a href="mailto: email@jarrodtaylor.me">email@jarrodtaylor.me</a>.
+      If you're looking for technical consulting,
+      <a href="/downloads/Jarrod Taylor - Resume.pdf" download>download my work history</a>
+      and connect on <a href="https://www.linkedin.com/in/~jarrod/">LinkedIn</a>
+      or <a href="https://github.com/jarrodtaylor">GitHub</a>.
+    </p>
+
   </body>
 </html>
