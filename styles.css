@@ -1,0 +1,59 @@
+@font-face { font-family: "text"; font-style: normal; font-weight: normal;
+  src: url("/fonts/regular.woff2") format("woff2"); }
+@font-face { font-family: "text"; font-style: normal; font-weight: bold;
+  src: url("/fonts/bold.woff2") format("woff2"); }
+@font-face { font-family: "text"; font-style: italic; font-weight: normal;
+  src: url("/fonts/italic.woff2") format("woff2"); }
+
+body {
+  color: #333;
+  font-family: "text";
+  font-size: 18px;
+  line-height: 2em;
+  max-width: 620px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 1em;
+  margin-bottom: 0;
+}
+
+body > p:first-of-type { font-size: 1.333em; }
+
+p { line-height: 1.5em; }
+
+a, a:visited { color: #492B88; font-weight: bold; }
+
+a:hover {
+  background-color: #492B88;
+  color: white;
+  margin-left: -3px;
+  margin-right: -3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-decoration: none;
+}
+
+a#avatar {
+  background-color: transparent;
+  background-image: url("images/avatar.gif");
+ 	background-position-x: -100%;
+  background-size: auto 100%;
+  border-radius: 50%;
+  float: right;
+  height: 8.07em;
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+  transition-delay: .3s;
+  width: 8.07em;
+}
+
+a#avatar.left  { background-position-x: calc(0% + .5px);    }
+a#avatar.right { background-position-x: calc(-300% - 1px);  }
+a#avatar:hover { background-position-x: calc(-200% - .5px); }
+
+@media (max-width: 660px) { a#avatar { display: none; } }

@@ -1,0 +1,10 @@
+{
+  "theme_color": "#492B88",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": ".",
+  "name": "Jarrod Taylor",
+  "short_name": "Jarrod",
+  "icons": [{ "src": "/images/apple-touch-icon.png" }]
+}
