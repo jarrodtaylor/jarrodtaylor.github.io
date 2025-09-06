@@ -1,0 +1,15 @@
+/* @include ../.fonts/bryant/manifest.css       */
+/* @include ../.fonts/bryant-alt/manifest.css   */
+/* @include ../.fonts/concourse/manifest.css    */
+/* @include ../.fonts/indie-flower/manifest.css */
+/* @include ../.fonts/spot/manifest.css         */
+
+:root {
+  --text:     bryant,       sans-serif;
+  --alt:      bryant-alt,   sans-serif;
+  --headline: concourse,    sans-serif;
+  --writing:  indie-flower, sans-serif;
+  --code:     spot,         monospace;
+
+  font: 16px/1.33 var(--text);
+}
