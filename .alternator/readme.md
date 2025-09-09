@@ -54,7 +54,7 @@ maintain productized services tailored for their audiences
 
 ## Contract Gigs
 
-<aside style="margin-top: -2rem;">Most of these were remote work.</aside>
+<aside style="margin-top: -2.5rem;">Most of these were remote work.</aside>
 
 <!-- @include .readme/contract-gigs/fidelity.html -->
 <!-- @include .readme/contract-gigs/prism.html -->

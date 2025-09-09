@@ -67,12 +67,12 @@ aside {
   width: 8rem;
 
   &:nth-of-type(odd) {
-    margin-left: 27rem;
+    margin-left: 27.5rem;
     transform: rotate(2deg);
   }
 
   &:nth-of-type(even) {
-    margin-left: -9rem;
+    margin-left: -9.5rem;
     text-align: right;
     transform: rotate(-2deg);
   }
