@@ -102,10 +102,7 @@ blockquote {
   }
 }
 
-body {
-  margin: 0;
-  border-top: .2rem solid black;
-}
+body { margin: 0; }
 
 details {
   margin-bottom: .5rem;
