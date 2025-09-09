@@ -35,7 +35,7 @@ to their competitors.
 - [**Degenerate Baker**](https://degeneratebaker.com)<br />
   Wickedly sweet custom bakes.
 - [**Scaring with Sammy**](https://scaringwithsammy.com)<br />
-  Bite-sized scare acting lessons.
+  Bite–sized scare acting lessons.
 
 ## Employment History
 
