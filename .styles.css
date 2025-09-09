@@ -3,7 +3,7 @@
   src: url("/.assets/indie-flower.woff2");
 }
 
-/* wght 300-700 ital 0-100 xtab 0-1000 */
+/* wght 300-700 ital 0/100 xtab 0-1000 */
 @font-face {
   font-family: spot;
   src: url("/.assets/spot.woff2") format("woff2 supports variations"),
@@ -11,8 +11,8 @@
 }
 
 :root {
-  background-color: light-dark(snow, black);
-  color: light-dark(black, snow);
+  background-color: light-dark(white, black);
+  color: light-dark(black, ghostwhite);
   color-scheme: light dark;
   font: 16px/1.5 spot, sans-serif;
   font-variation-settings: "wght" 400, "ital" 0, "xtab" 0;
@@ -23,14 +23,14 @@
 }
 
 a {
-  box-shadow: inset 0 -.08em 0 light-dark(dodgerblue, deepskyblue);
-  color: light-dark(black, snow);
+  box-shadow: inset 0 -1px 0 slategray;
+  color: light-dark(black, ghostwhite);
   text-decoration: none;
   transition: all .2s;
 
   &:hover {
-    box-shadow: inset 0 -1.5em 0 light-dark(dodgerblue, deepskyblue);
-    color: light-dark(snow, black);
+    box-shadow: inset 0 -1.5em 0 light-dark(black, ghostwhite);
+    color: light-dark(ghostwhite, black);
   }
 }
 
@@ -38,39 +38,112 @@ article {
   margin: auto;
   max-width: 26rem;
   padding: 0 1rem;
+
+  img {
+    margin: 0 0 1rem -1rem;
+    width: calc(100% + 2rem);
+  }
 }
 
 aside {
   --width: calc((744px - 26rem - 3rem) / 2);
 
+  color: cadetblue;
   display: block;
   font-family: indie-flower;
   font-size: .9rem;
   line-height: 1.125rem;
-  margin-left: calc(var(--width) * -1 - 1.5rem);
   margin-top: 1rem;
-  opacity: .5;
   position: absolute;
-  text-align: right;
-  transform: rotate(-2deg);
+
   width: var(--width);
 
   @media (max-width: 744px) { display: none; }
+
+  &:nth-of-type(odd) {
+    margin-left: calc(26rem + 1.5rem);
+    text-align: left;
+    transform: rotate(2deg);
+  }
+
+  &:nth-of-type(even) {
+    margin-left: calc(var(--width) * -1 - 1.5rem);
+    text-align: right;
+    transform: rotate(-2deg);
+  }
+}
+
+blockquote {
+  border-left: .1rem solid light-dark(gainsboro, hsl(from darkslategray h s 10));
+  color: light-dark(darkslategray, slategray);
+  margin: 0 0 0 0rem;
+  padding-left: 1rem;
+
+  p {
+    font-size: 1.25rem;
+    font-variation-settings: "wght" 300, "ital" 100, "xtab" 0;
+    letter-spacing: 0;
+    line-height: 1.5rem;
+  }
+
+  &:before {
+    color: cadetblue;
+    content: "“";
+    font-size: 5rem;
+    font-variation-settings: "wght" 300, "ital" 0, "xtab" 0;
+    margin-left: -4rem;
+    position: absolute;
+  }
 }
 
 body { margin: 0; }
 
+details {
+  margin-bottom: .5rem;
+
+  summary {
+    font-variation-settings: "wght" 600, "ital" 0, "xtab" 200;
+    letter-spacing: -.02em;
+    margin-left: -.9rem;
+
+    &:hover { cursor: pointer; }
+
+    date {
+      color: light-dark(darkslategray, slategray);
+      float: right;
+      font-variation-settings: "wght" 400, "ital" 0, "xtab" 200;
+      text-align: right;
+    }
+
+    cite {
+      display: block;
+      font-variation-settings: "wght" 400, "ital" 0, "xtab" 200;
+      letter-spacing: -.02em;
+      padding-left: .9rem;
+    }
+  }
+
+  div {
+    border-left: .1rem solid light-dark(
+      whitesmoke, hsl(from darkslategray h s 10));
+    padding-left: .5rem;
+    margin-top: .5rem;
+    margin-left: -.6rem;
+  }
+
+}
+
 footer {
+  color: light-dark(gainsboro, darkslategray);
   font-variation-settings: "wght" 300, "ital" 0, "xtab" 0;
   height: 1rem;
   margin: 5rem auto;
-  opacity: .2;
   text-align: center;
 }
 
 h1, h2, h3 {
   margin: 1.5em 0 1rem 0;
-  line-height: 1em;
+  line-height: 2.5rem;
 }
 
 h1 {
@@ -81,12 +154,14 @@ h1 {
 h2 {
   font-size: 1.5rem;
   font-variation-settings: "wght" 500, "ital" 0, "xtab" 0;
+  line-height: 2rem;
 }
 
 h3 {
   font-size: 1rem;
   font-variation-settings: "wght" 450, "ital" 0, "xtab" 0;
   margin-top: 1em;
+  line-height: 1.5rem;
 }
 
 header {
@@ -95,6 +170,7 @@ header {
 
   a {
     box-shadow: none;
+    color: light-dark(slategray, lightslategray);
     font-variation-settings: "wght" 300, "ital" 0, "xtab" 500;
     font-size: .9rem;
     padding: 0 .25em;
@@ -119,16 +195,15 @@ nav {
 
   a:nth-child(1), a:nth-child(2) {
     box-shadow: none;
-    color: var(--black);
-    color: light-dark(black, snow);
+    color: light-dark(darkslategray, gainsboro);
     font-variation-settings: "wght" 300, "ital" 0, "xtab" 500;
     margin: 2.5rem 0 0 0;
     padding: 0 .25em;
-    text-transform: lowercase;
+    text-transform: uppercase;
 
     &:hover {
-      box-shadow: inset 0 -1.5em 0 light-dark(dodgerblue, deepskyblue);
-      color: light-dark(snow, black);
+      box-shadow: inset 0 -1.5em 0 light-dark(orangered, greenyellow);
+      color: light-dark(ghostwhite, black);
     }
   }
 
@@ -140,6 +215,7 @@ nav {
     background-position-x: -100%;
     background-size: auto 100%;
     box-shadow: 0 0 1px hsl(from black h s 80);
+    box-shadow: none;
     border-radius: 50%;
     display: block;
     height: 6rem;
@@ -157,8 +233,26 @@ nav {
   a:nth-child(2):hover ~ a:nth-child(3) { background-position-x: -300%; }
 }
 
+ol, ul { padding: 0; }
+
+li {
+  margin-bottom: .5rem;
+
+  &::marker { color: cadetblue; }
+}
+
 p {
-  font-variation-settings: "wght" 350, "ital" 0, "xtab" 200;
+  font-variation-settings: "wght" 400, "ital" 0, "xtab" 200;
   letter-spacing: -.02em;
   margin: 0 0 1rem 0;
+
+  mark { background-color: yellow; }
+
+  strong { font-variation-settings: "wght" 500, "ital" 0, "xtab" 200; }
+
+  &.lede {
+    font-size: 1.2rem;
+    font-variation-settings: "wght" 300, "ital" 0, "xtab" 0;
+    line-height: 1.5rem;
+  }
 }
