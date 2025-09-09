@@ -134,11 +134,11 @@ details {
   }
 
   div {
-    border-left: .1rem solid light-dark(
+    border-left: .2rem solid light-dark(
       whitesmoke, hsl(from darkslategray h s 10));
     padding-left: .5rem;
     margin-top: .5rem;
-    margin-left: -.6rem;
+    margin-left: -.7rem;
 
     ul {
       font-size: 0;
