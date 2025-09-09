@@ -14,8 +14,22 @@
   background-color: light-dark(white, black);
   color: light-dark(black, ghostwhite);
   color-scheme: light dark;
-  font: 16px/1.5 spot, sans-serif;
+  font: 13px/1.5 spot, sans-serif;
   font-variation-settings: "wght" 400, "ital" 0, "xtab" 0;
+
+  @media (min-width: 25rem) { font-size: 14px; }
+  @media (min-width: 26rem) { font-size: 15px; }
+  @media (min-width: 45rem) { font-size: 16px; }
+  @media (min-width: 48rem) { font-size: 17px; }
+  @media (min-width: 51rem) { font-size: 18px; }
+  @media (min-width: 54rem) { font-size: 19px; }
+  @media (min-width: 57rem) { font-size: 20px; }
+  @media (min-width: 60rem) { font-size: 21px; }
+  @media (min-width: 63rem) { font-size: 22px; }
+  @media (min-width: 66rem) { font-size: 23px; }
+  @media (min-width: 69rem) { font-size: 24px; }
+  @media (min-width: 72rem) { font-size: 25px; }
+
 }
 
 ::selection {
@@ -35,10 +49,6 @@ a {
 }
 
 article {
-  margin: auto;
-  max-width: 26rem;
-  padding: 0 1rem;
-
   img {
     margin: 0 0 1rem -1rem;
     width: calc(100% + 2rem);
@@ -46,28 +56,23 @@ article {
 }
 
 aside {
-  --width: calc((744px - 26rem - 3rem) / 2);
+  @media (max-width: 45rem) { display: none; }
 
   color: cadetblue;
-  display: block;
   font-family: indie-flower;
   font-size: .9rem;
   line-height: 1.125rem;
-  margin-top: 1rem;
+  margin-top: .5rem;
   position: absolute;
-
-  width: var(--width);
-
-  @media (max-width: 744px) { display: none; }
+  width: 8rem;
 
   &:nth-of-type(odd) {
-    margin-left: calc(26rem + 1.5rem);
-    text-align: left;
+    margin-left: 27rem;
     transform: rotate(2deg);
   }
 
   &:nth-of-type(even) {
-    margin-left: calc(var(--width) * -1 - 1.5rem);
+    margin-left: -9rem;
     text-align: right;
     transform: rotate(-2deg);
   }
@@ -96,7 +101,10 @@ blockquote {
   }
 }
 
-body { margin: 0; }
+body {
+  margin: 0;
+  border-top: .2rem solid black;
+}
 
 details {
   margin-bottom: .5rem;
@@ -111,7 +119,8 @@ details {
     date {
       color: light-dark(darkslategray, slategray);
       float: right;
-      font-variation-settings: "wght" 400, "ital" 0, "xtab" 200;
+      font-variation-settings: "wght" 300, "ital" 0, "xtab" 200;
+      font-size: .8rem;
       text-align: right;
     }
 
@@ -202,6 +211,12 @@ header {
     float: left;
     margin-left: -.25em;
   }
+}
+
+main {
+  max-width: 26rem;
+  margin: auto;
+  padding: 0 1.5rem;
 }
 
 nav {
