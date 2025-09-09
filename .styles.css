@@ -129,6 +129,23 @@ details {
     padding-left: .5rem;
     margin-top: .5rem;
     margin-left: -.6rem;
+
+    ul {
+      font-size: 0;
+      list-style-type: none;
+      margin-bottom: 1rem;
+
+      li {
+        background-color: light-dark(whitesmoke, #FFFFFF22);
+        color: light-dark(darkslategray, lightslategray);
+        display: inline-block;
+        font-variation-settings: "wght" 300, "ital" 0, "xtab" 1000;
+        font-size: .8rem;
+        letter-spacing: -.05em;
+        margin: .2em;
+        padding: 0 .25em;
+      }
+    }
   }
 
 }
