@@ -52,6 +52,22 @@ a {
 }
 
 article {
+  margin-top: 4rem;
+  &:first-of-type { margin-top: 3rem; }
+  *:nth-child(1) { margin-top: 0rem; }
+
+  a:empty {
+    box-shadow: none;
+    color: light-dark(gainsboro, darkslategray);
+    margin-left: .2em;
+
+    &::after { content: "☆"; }
+
+    &:hover {
+      background-color: transparent;
+      &::after { content: "★"; }
+    }
+  }
 }
 
 aside {
