@@ -16,10 +16,10 @@ Say hi at [email@jarrodtaylor.me](mailto:email@jarrodtaylor.me).
 
 <aside>You should hire us.</aside>
 
-[We Ship Software](https://weshipsoftware.com) is a tech agency I run with
+[We Ship Software](https://weshipsoftware.com) is a **tech agency** I run with
 [Richard](https://richard.is).
 
-We help growing <mark>businesses</mark> build and deliver better software than anything available
+We help growing <mark>businesses</mark> build and <mark>deliver better software</mark> than anything available
 to their competitors.
 
 Long term, we’ll be partnering with up-and-coming content creators to build, ship, and

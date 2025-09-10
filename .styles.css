@@ -109,7 +109,7 @@ details {
     }
 
     cite {
-      color: light-dark(darkslategray, slategray);
+      color: slategray;
       display: block;
       font-size: .9rem;
       font-style: normal;
@@ -273,15 +273,18 @@ ol, ul { padding: 0; }
 li {
   margin-bottom: .5rem;
 
-  &::marker { color: light-dark(gainsboro, dimgray); }
+  &::marker { color: slategray; }
 }
 
 p {
   margin: 0 0 1rem 0;
 
-  mark { background-color: light-dark(yellow, goldenrod); }
+  mark {
+    background-color: light-dark(yellow, darkgoldenrod);
+    color: light-dark(black, gainsboro);
+    padding: .1rem .3rem 1px .3rem;
+  }
 
-  strong { font-variation-settings: "wght" 500, "ital" 0, "xtab" 200; }
-
+  strong { font-variation-settings: "wght" 500, "ital" 0, "xtab" 50; }
   &.lede { font-size: 1.125rem; }
 }
