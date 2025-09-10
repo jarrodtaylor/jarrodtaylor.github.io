@@ -23,7 +23,7 @@ We help growing businesses build and deliver better software than anything avail
 to their competitors.
 
 Long term, we’ll be partnering with up-and-coming content creators to build, ship, and
-maintain productized services tailored for their audiences
+maintain productized services tailored for their audiences.
 
 ## Active Projects
 
@@ -89,8 +89,8 @@ maintain productized services tailored for their audiences
 
 ## Defunct Projects
 
-<aside>Elixir handled this one like a champ.</aside>
 - **Idle Returns**<br />
+  <aside>Elixir handled this one like a champ.</aside>
   A personal, automated investment system that recommends momentum trades by consuming
   and analyzing way too much market data.
 - [**Chassis**](https://rubygems.org/gems/sinatra-chassis)<br />
