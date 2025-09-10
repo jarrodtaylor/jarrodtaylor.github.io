@@ -77,28 +77,16 @@ aside {
   }
 }
 
-/* blockquote {
-  border-left: .1rem solid light-dark(gainsboro, hsl(from darkslategray h s 10));
-  color: light-dark(darkslategray, slategray);
-  margin: 0 0 0 0rem;
-  padding-left: 1rem;
-
-  p {
-    font-size: 1.25rem;
-    font-variation-settings: "wght" 300, "ital" 100, "xtab" 0;
-    letter-spacing: 0;
-    line-height: 1.5rem;
-  }
-
-  &:before {
-    color: cadetblue;
-    content: "“";
-    font-size: 5rem;
-    font-variation-settings: "wght" 300, "ital" 0, "xtab" 0;
-    margin-left: -4rem;
-    position: absolute;
-  }
-} */
+blockquote {
+  background-color: light-dark(whitesmoke, hsl(from darkslategray h s 11));
+  border-left: .2rem solid light-dark(silver, darkslategray);
+  font-variation-settings: "wght" 400, "ital" 0, "xtab" 500;
+  font-size: .9rem;
+  letter-spacing: -.05em;
+  margin: 0 0 1rem -1rem;
+  padding: 1rem 1rem 1px .8rem;
+  width: calc(100%);
+}
 
 body { margin: 0; }
 
