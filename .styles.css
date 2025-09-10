@@ -14,8 +14,9 @@
 }
 
 :root {
-  background-color: white;
-  color: black;
+  color-scheme: light dark;
+  background-color: light-dark(white, hsl(from darkslategray h s 9));
+  color: light-dark(black, gainsboro);
   font: 13px/1.5 text, sans-serif;
   font-variation-settings: "wght" 350, "ital" 0, "xtab" 50;
   letter-spacing: -.005em;
@@ -35,17 +36,17 @@
 
 }
 
-::selection { background-color: yellow; }
+::selection { background-color: light-dark(cyan, darkcyan); }
 
 a {
-  box-shadow: inset 0 -2px 0 gainsboro;
+  box-shadow: inset 0 -2px 0 light-dark(gainsboro, darkslategray);
   color: inherit;
   font-variation-settings: "wght" 400, "ital" 0, "xtab" 50;
   text-decoration: none;
 
   &:hover {
     box-shadow: none;
-    background-color: orangered;
+    background-color: light-dark(orangered, darkslateblue);
     color: white;
   }
 }
@@ -120,7 +121,7 @@ details {
     }
 
     cite {
-      color: darkslategray;
+      color: light-dark(darkslategray, slategray);
       display: block;
       font-size: .9rem;
       font-style: normal;
@@ -130,7 +131,7 @@ details {
   }
 
   div {
-    border-left: .2rem solid whitesmoke;
+    border-left: .2rem solid light-dark(whitesmoke, hsl(from darkslategray h s 11));
     font-size: .9rem;
     padding-left: .5rem;
     margin-top: .5rem;
@@ -142,7 +143,7 @@ details {
       margin-bottom: 1rem;
 
       li {
-        background-color: whitesmoke;
+        background-color: light-dark(whitesmoke, hsl(from darkslategray h s 11));
         color: slategray;
         display: inline-block;
         font-variation-settings: "wght" 300, "ital" 0, "xtab" 1000;
@@ -157,7 +158,7 @@ details {
 }
 
 footer {
-  color: gainsboro;
+  color: light-dark(gainsboro, darkslategray);
   font-variation-settings: "wght" 300, "ital" 0, "xtab" 0;
   height: 1rem;
   letter-spacing: 0;
@@ -166,6 +167,7 @@ footer {
 }
 
 h1, h2, h3 {
+  color: light-dark(inherit, white);
   line-height: 2.5rem;
   margin: 1.5em 0 1rem 0;
 }
@@ -192,7 +194,7 @@ h3 {
 }
 
 header {
-  color: lightslategray;
+  color: light-dark(lightslategray, hsl(from darkslategray h s 20));
   font-size: .8rem;
 
   margin-bottom: 1rem;
@@ -243,7 +245,7 @@ nav {
 
   a:nth-child(1), a:nth-child(2) {
     box-shadow: none;
-    color: darkslategray;
+    color: light-dark(darkslategray, hsl(from cadetblue h s 60));
     margin: 2.5rem 0 0 0;
     padding: 0 .25em;
 
@@ -283,13 +285,13 @@ ol, ul { padding: 0; }
 li {
   margin-bottom: .5rem;
 
-  &::marker { color: gainsboro; }
+  &::marker { color: light-dark(gainsboro, dimgray); }
 }
 
 p {
   margin: 0 0 1rem 0;
 
-  mark { background-color: yellow; }
+  mark { background-color: light-dark(yellow, goldenrod); }
 
   strong { font-variation-settings: "wght" 500, "ital" 0, "xtab" 200; }
 
