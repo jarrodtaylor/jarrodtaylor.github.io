@@ -1,5 +1,5 @@
 ---
-@layout: .layout.html
+@layout: ._/layout.html
 ---
 ## Alternator v2.2 [](permalink)
 

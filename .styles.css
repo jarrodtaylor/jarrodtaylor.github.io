@@ -50,7 +50,8 @@ a {
 
 article {
   margin-top: 4rem;
-  &:first-of-type { margin-top: 3rem; }
+
+  &:first-of-type { margin-top: 2rem; }
 
   a:empty {
     box-shadow: none;
@@ -68,6 +69,19 @@ article {
   }
 
   time { display: none; }
+
+  &.column {
+    margin-top: 3.375rem;
+    padding-bottom: 2.375rem;
+    border: 1px dashed light-dark(gainsboro, darkslategray);
+    border-width: 1px 0;
+
+    &:first-of-type { border-top: none; }
+  }
+
+  &.link {}
+
+  &.post {}
 }
 
 aside {
@@ -105,6 +119,12 @@ blockquote {
 }
 
 body { margin: 0; }
+
+code {
+  background-color: light-dark(whitesmoke, hsl(from darkslategray h s 11));
+  font-family: text, monospace;
+  font-variation-settings: "wght" 300, "ital" 0, "xtab" 1000;
+}
 
 details {
   margin-bottom: .5rem;
@@ -307,6 +327,10 @@ p {
 
   strong { font-variation-settings: "wght" 500, "ital" 0, "xtab" 50; }
   &.lede { font-size: 1.125rem; }
+}
+
+table {
+  width: 100%;
 }
 
 time {

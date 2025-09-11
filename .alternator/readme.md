@@ -1,5 +1,5 @@
 ---
-@layout: .layout.html
+@layout: ._/layout.html
 ---
 # Hi! I’m Jarrod Taylor.
 

@@ -1,4 +1,6 @@
 ---
-@layout: .layout.html
+@layout: ._/layout.html
 ---
-# Weblog
+## Utilities
+
+[Style Guide](*/style-guide)
