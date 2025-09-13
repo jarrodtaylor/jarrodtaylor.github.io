@@ -3,8 +3,6 @@
 ---
 # Hi! I’m Jarrod Taylor.
 
-<aside>Also, sometimes I make things.</aside>
-
 <p class="lede">
   Distiller of useless skills. Sports car enthusiast.
   Writer, programmer, podcaster, caffeine addict.
@@ -19,7 +17,7 @@ Say hi at [email@jarrodtaylor.me][email].
 
 [We Ship Software][wss] is a tech agency I run with [Richard][richard].
 
-We help growing businesses build and deliver better software than anything available
+We help <mark>growing businesses</mark> build and deliver better software than anything available
 to their competitors.
 
 Long term, we’ll be partnering with up-and-coming content creators to build, ship, and

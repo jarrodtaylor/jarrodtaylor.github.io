@@ -1,7 +1,7 @@
 ---
 @layout: ._/layout.html
 ---
-[Florida Panthers BEST plays from the last 3 seasons]() [](permalink)
+### [Florida Panthers BEST plays from the last 3 seasons]() [](permalink)
 
 <aside>Let's go home, baby!.</aside>
 

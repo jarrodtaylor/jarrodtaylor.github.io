@@ -12,12 +12,17 @@
 }
 
 :root {
-  background-color: light-dark(white, hsl(from darkslategray h s 9));
-  color: light-dark(black, gainsboro);
   color-scheme: light dark;
-  font: 13px/1.5 text, sans-serif;
-  font-variation-settings: "wght" 350, "ital" 0, "xtab" 50;
-  letter-spacing: -.005em;
+
+  background-color: light-dark(
+    hsl(from silver h s 99),
+    hsl(from silver h s 9));
+  color: light-dark(
+    hsl(from silver h s 9),
+    hsl(from silver h s 90));
+  font: 13px/1.25 text, sans-serif;
+  font-variation-settings: "wght" 350, "xtab" 50;
+  letter-spacing: -.002em;
 
   @media (min-width: 25rem) { font-size: 14px; }
   @media (min-width: 26rem) { font-size: 15px; }
@@ -33,56 +38,56 @@
   @media (min-width: 72rem) { font-size: 25px; }
 }
 
-::selection { background-color: light-dark(cyan, darkcyan); }
+::selection { background-color: yellowgreen; }
 
 a {
-  box-shadow: inset 0 -2px 0 light-dark(gainsboro, darkslategray);
+  box-shadow: inset 0 -.06em 0 darkslategray;
   color: inherit;
-  font-variation-settings: "wght" 400, "ital" 0, "xtab" 50;
+  font-variation-settings: "wght" 400, "xtab" 50;
   text-decoration: none;
 
   &:hover {
     box-shadow: none;
-    background-color: light-dark(orangered, darkslateblue);
+    background-color: darkslateblue;
     color: white;
   }
 }
 
 article {
-  margin-top: 4rem;
-
-  &:first-of-type { margin-top: 2rem; }
+  margin-bottom: 7rem;
 
   a:empty {
     box-shadow: none;
     color: inherit;
-    opacity: .2;
     margin-left: .2em;
+    color: light-dark(
+      hsl(from darkslategray h s 80),
+      darkslategray);
 
     &::after { content: "☆"; }
 
     &:hover {
       background-color: transparent;
-      opacity: 1;
       &::after { content: "★"; }
     }
   }
 
   time { display: none; }
-
-  &.column {
-    margin-top: 3.375rem;
-    padding-bottom: 2.375rem;
-    border: 1px dashed light-dark(gainsboro, darkslategray);
-    border-width: 1px 0;
-
-    &:first-of-type { border-top: none; }
-  }
-
-  &.link {}
-
-  &.post {}
 }
+
+article + article.column {
+  border: 1px dashed light-dark(
+    hsl(from darkslategray h s 80),
+    darkslategray);
+  border-width: 1px 0;
+  padding: 3rem 0 7rem 0;
+}
+
+article + article.column:last-child {
+  border-bottom: none;
+  padding-bottom: 3rem;
+}
+
 
 aside {
   @media (max-width: 45rem) { display: none; }
@@ -90,29 +95,32 @@ aside {
   color: cadetblue;
   font-family: handwriting;
   font-size: .8rem;
+  font-weight: bold;
   line-height: 1rem;
   margin-top: .5rem;
   position: absolute;
   width: 7.5rem;
-
-  &:nth-of-type(odd) {
-    margin-left: 28rem;
-    transform: rotate(2deg);
-  }
 
   &:nth-of-type(even) {
     margin-left: -10rem;
     text-align: right;
     transform: rotate(-2deg);
   }
+
+  &:nth-of-type(odd) {
+    margin-left: 28rem;
+    transform: rotate(2deg);
+  }
 }
 
 blockquote {
-  background-color: light-dark(whitesmoke, hsl(from darkslategray h s 11));
-  border-left: .2rem solid light-dark(silver, darkslategray);
-  font-variation-settings: "wght" 400, "ital" 0, "xtab" 500;
+  background-color: light-dark(
+    hsl(from darkslategray h s 96),
+    hsl(from darkslategray h s 11));
+  border-left: .2rem solid hsl(from darkslategray h s 20);
+  font-variation-settings: "wght" 400, "xtab" 500;
   font-size: .9rem;
-  letter-spacing: -.05em;
+  letter-spacing: -.02em;
   margin: 0 0 1rem -1rem;
   padding: 1rem 1rem 1px .8rem;
   width: calc(100%);
@@ -121,16 +129,18 @@ blockquote {
 body { margin: 0; }
 
 code {
-  background-color: light-dark(whitesmoke, hsl(from darkslategray h s 11));
+  background-color: light-dark(
+    hsl(from darkslategray h s 96),
+    hsl(from darkslategray h s 16));
   font-family: text, monospace;
-  font-variation-settings: "wght" 300, "ital" 0, "xtab" 1000;
+  font-variation-settings: "wght" 300, "xtab" 1000;
 }
 
 details {
   margin-bottom: .5rem;
 
   summary {
-    font-variation-settings: "wght" 500, "ital" 0, "xtab" 0;
+    font-variation-settings: "wght" 500, "xtab" 0;
     letter-spacing: 0;
     margin-left: -.9rem;
 
@@ -139,7 +149,7 @@ details {
     time {
       color: slategray;
       float: right;
-      font-variation-settings: "wght" 300, "ital" 0, "xtab" 0;
+      font-variation-settings: "wght" 300, "xtab" 0;
       margin-top: auto;
       font-size: .8rem;
       text-align: right;
@@ -150,14 +160,15 @@ details {
       display: block;
       font-size: .9rem;
       font-style: normal;
-      font-variation-settings: "wght" 400, "ital" 0, "xtab" 0;
+      font-variation-settings: "wght" 400, "xtab" 0;
       padding-left: .9rem;
     }
   }
 
   div {
-    border-left:
-      .2rem solid light-dark(whitesmoke, hsl(from darkslategray h s 11));
+    border-left: .2rem solid light-dark(
+      hsl(from darkslategray h s 96),
+      hsl(from darkslategray h s 12));
     font-size: .9rem;
     padding-left: .5rem;
     margin-top: .5rem;
@@ -169,11 +180,12 @@ details {
       margin-bottom: 1rem;
 
       li {
-        background-color:
-          light-dark(whitesmoke, hsl(from darkslategray h s 11));
+        background-color: light-dark(
+          hsl(from darkslategray h s 96),
+          hsl(from darkslategray h s 12));
         color: slategray;
         display: inline-block;
-        font-variation-settings: "wght" 300, "ital" 0, "xtab" 1000;
+        font-variation-settings: "wght" 300, "xtab" 1000;
         font-size: .67rem;
         letter-spacing: 0;
         margin: .2em;
@@ -181,12 +193,13 @@ details {
       }
     }
   }
-
 }
 
 footer {
-  color: light-dark(gainsboro, darkslategray);
-  font-variation-settings: "wght" 300, "ital" 0, "xtab" 0;
+  color: light-dark(
+    hsl(from darkslategray h s 80),
+    hsl(from darkslategray h s 20));
+  font-variation-settings: "wght" 100, "xtab" 0;
   height: 1rem;
   letter-spacing: 0;
   margin: 5rem auto;
@@ -194,42 +207,48 @@ footer {
 }
 
 h1, h2, h3 {
-  color: light-dark(inherit, white);
+  color: light-dark(
+    hsl(from silver h s 3),
+    hsl(from silver h s 99));
   line-height: 2.5rem;
   margin: 1.5em 0 1rem 0;
 }
 
 h1 {
   font-size: 2.25rem;
-  font-variation-settings: "wght" 700, "ital" 0, "xtab" 0;
-  letter-spacing: -.015em;
+  font-variation-settings: "wght" 700, "xtab" 0;
+  letter-spacing: -.05em;
 }
 
 h2 {
   font-size: 1.5rem;
-  font-variation-settings: "wght" 500, "ital" 0, "xtab" 0;
+  font-variation-settings: "wght" 500, "xtab" 0;
   letter-spacing: -.02em;
   line-height: 2rem;
 }
 
 h3 {
   font-size: 1rem;
-  font-variation-settings: "wght" 450, "ital" 0, "xtab" 0;
+  font-variation-settings: "wght" 450, "xtab" 0;
   letter-spacing: 0;
   line-height: 1.5rem;
   margin-top: 1em;
 }
 
 header {
-  color: light-dark(lightslategray, hsl(from darkslategray h s 20));
+  color: light-dark(
+    hsl(from slategray h s 67),
+    hsl(from slategray h s 33));
   font-size: .8rem;
-
   margin-bottom: 1rem;
   padding: 1rem;
+  position: absolute;
+  width: calc(100% - 2rem);
+  top: 0;
 
   a {
     box-shadow: none;
-    font-variation-settings: "wght" 300, "ital" 0, "xtab" 1000;
+    font-variation-settings: "wght" 300, "xtab" 1000;
     padding: 0 .25em;
   }
 
@@ -256,7 +275,6 @@ img {
   width: calc(100% + 3rem);
 }
 
-
 main {
   max-width: 26rem;
   margin: auto;
@@ -265,17 +283,19 @@ main {
 
 nav {
   height: 5rem;
-  margin: auto;
-  margin-top: 1rem;
+  margin: 3rem auto 3rem auto;
   text-transform: lowercase;
 
   a { position: absolute; }
 
   a:nth-child(1), a:nth-child(2) {
+    border-radius: .1em;
     box-shadow: none;
-    color: light-dark(darkslategray, hsl(from cadetblue h s 60));
-    margin: 1.75rem 0 0 0;
-    padding: 0 .25em;
+    color: light-dark(
+      hsl(from slategray h s 33),
+      hsl(from slategray h s 67));
+    margin: 1.8rem 0 0 0;
+    padding: .2em .4em 0 .4em;
 
     &:hover { color: white; }
   }
@@ -287,7 +307,7 @@ nav {
     background-image: url("/.assets/avatar.gif");
     background-position-x: -100%;
     background-size: auto 100%;
-    box-shadow: 0 0 1px silver;
+    box-shadow: 0 0 1px transparent;
     border-radius: 50%;
     display: block;
     height: 5rem;
@@ -297,6 +317,7 @@ nav {
     transition: background-position-x;
     transition-delay: .2s;
     width: 5rem;
+    filter: brightness(97%);
 
     &.up, &:hover {
       background-position-x: -200%;
@@ -312,29 +333,45 @@ ol, ul { padding: 0; }
 
 li {
   margin-bottom: .5rem;
-
-  &::marker { color: slategray; }
+  &::marker { color: darkslategray; }
 }
 
 p {
   margin: 0 0 1rem 0;
 
   mark {
-    background-color: light-dark(yellow, darkgoldenrod);
-    color: light-dark(black, gainsboro);
+    background-color: gold;
+    color: hsl(from silver h s 9);
+    font-variation-settings: "wght" 400, "xtab" 50;
     padding: .1rem .3rem 1px .3rem;
   }
 
-  strong { font-variation-settings: "wght" 500, "ital" 0, "xtab" 50; }
-  &.lede { font-size: 1.125rem; }
+  strong { font-variation-settings: "wght" 500, "xtab" 50; }
+
+  &.lede {
+    font-size: 1.25rem;
+    letter-spacing: -.04em;
+  }
 }
 
-table {
-  width: 100%;
-}
+table { width: 100%; }
 
 time {
-  color: light-dark(lightslategray, darkslategray);
+  color: cadetblue;
   display: block;
-  margin-top: 3rem;
+  font-variation-settings: "wght" 300, "xtab" 1000;
+  margin-left: 13rem;
+  position: absolute;
+  text-align: right;
+  transform: rotate(3deg);
+  width: 13rem;
+  z-index: -1;
+}
+
+article + time {
+  position: relative;
+  margin-bottom: 2rem;
+  margin-left: -1rem;
+  text-align: left;
+  transform: rotate(-3deg);
 }

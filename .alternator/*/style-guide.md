@@ -1,9 +1,11 @@
 ---
 @layout: ._/layout.html
 ---
+<time>15 Feb 2025</time>
+
 # Style Guide [](*/style-guide)
 
-Always under construction yet never up–to–date.
+Always under construction. Never up–to–date.
 
 ## Shortcuts
 
