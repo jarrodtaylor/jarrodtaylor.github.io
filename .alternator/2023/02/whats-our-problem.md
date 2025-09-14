@@ -5,7 +5,7 @@
 ---
 ### [What’s Our Problem?](https://waitbutwhy.com/whatsourproblem)
 
-A self–help book for societies by Tim Urban of the amazing
+A self–help book for societies by Tim Urban of the extraordinary
 [Wait But Why](https://waitbutwhy.com).
 
 ![What’s Our Problem?](/.media/2023/02/whats-our-problem.jpg)

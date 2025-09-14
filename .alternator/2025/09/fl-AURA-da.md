@@ -9,7 +9,7 @@
 
 Panthers BEST AURA plays from the last 3 seasons. 😎
 
-<!-- @include ._/youtube.html @id: RXawsHY1apQ @layout: false -->
+<!-- @include ._/youtube.html @id: RXawsHY1apQ -->
 
 <time>10 September 2025</time>
 - [#hockey](/topics/hockey)

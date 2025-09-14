@@ -20,5 +20,6 @@
 - [#midnight-burger](/topics/midnight-burger)
 - [#panthers](/topics/panthers)
 - [#podcasts](/topics/podcasts)
+- [#racing](/topics/racing)
 - [#sci-fi](/topics/sci-fi)
 - [#society](/topics/society)
