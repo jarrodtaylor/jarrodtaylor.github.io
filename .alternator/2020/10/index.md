@@ -1,5 +1,6 @@
 ---
 @layout: ._/layout.html
 ---
-<!-- @include 2025/09/fl-AURA-da.md      @layout: ._/article.html -->
+#### Chronology § Oct 2020
+
 <!-- @include 2020/10/midnight-burger.md @layout: ._/article.html -->

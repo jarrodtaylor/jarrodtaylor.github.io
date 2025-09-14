@@ -2,9 +2,7 @@
 @layout: ._/layout.html
 @type: column
 ---
-<time>15 Feb 2025</time>
-
-# Style Guide [](style-guide)
+# Style Guide
 
 Always under construction. Never up–to–date.
 

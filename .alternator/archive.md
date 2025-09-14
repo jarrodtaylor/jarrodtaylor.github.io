@@ -2,39 +2,13 @@
 @layout: ._/layout.html
 @pageClass: archive
 ---
-Always under construction. Never up to date.
-
-## Chronology
-
 ### 2025
+- [Sep](/2025/09)
 
-[Jan]()
-[Feb]()
-[Mar]()
-[Apr]()
-[May]()
-[Jun]()
-[Jul]()
-[Aug]()
-[Sep]()
-[Oct]()
-[Nov]()
-[Dec]()
+### 2020
+- [Oct](/2020/10)
 
-### 2021
-
-[Jan]()
-[Mar]()
-[Apr]()
-[May]()
-[Jul]()
-[Aug]()
-[Sep]()
-[Oct]()
-[Nov]()
-[Dec]()
-
-## Tags
-
-[#podcasts](*/style-guide)
-[#sci-fi](*/style-guide)
+- [#hockey](/topics/hockey)
+- [#midnight-burger](/topics/midnight-burger)
+- [#panthers](/topics/panthers)
+- [#sci-fi](/topics/sci-fi)

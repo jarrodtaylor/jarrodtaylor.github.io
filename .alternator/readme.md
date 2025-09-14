@@ -9,7 +9,10 @@
   Rock ’n’ roll dilettante & ice hockey chirper.
 </p>
 
-Say hi at [email@jarrodtaylor.me][email].
+Say hello at [email@jarrodtaylor.me][email].
+
+This site is a collection of links and notes on all the random things I’m
+interested in, tagged and archived for easy reference.
 
 ## We Ship Software
 
@@ -30,6 +33,8 @@ ship, and maintain productized services tailored for their audiences.
 - [**Alternator**][alternator]<br />
   A CLI tool for building static websites on your Mac. Layouts, includes, and
   variables in HTML, CSS, and JS. Markdown built–in. Localhost server optional.
+- [**Style Guide**][style-guide]<br />
+  My reference document for remembering how to write.
 
 ## Collaborations
 
@@ -104,4 +109,5 @@ ship, and maintain productized services tailored for their audiences.
 [email]: mailto:email@jarrodtaylor.me
 [richard]: https://richard.is
 [sammy]: https://scaringwithsammy.com
+[style-guide]: /style-guide
 [wss]: https://weshipsoftware.com
