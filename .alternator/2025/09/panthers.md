@@ -1,5 +1,6 @@
 ---
 @layout: ._/layout.html
+@type: link
 ---
 ### [Florida Panthers BEST plays from the last 3 seasons]() [](permalink)
 

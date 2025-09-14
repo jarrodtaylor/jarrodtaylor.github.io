@@ -1,5 +1,6 @@
 ---
 @layout: ._/layout.html
+@type: post
 ---
 ## Alternator v2.2 [](permalink)
 

@@ -17,11 +17,11 @@ Say hi at [email@jarrodtaylor.me][email].
 
 [We Ship Software][wss] is a tech agency I run with [Richard][richard].
 
-We help <mark>growing businesses</mark> build and deliver better software than anything available
-to their competitors.
+We help growing businesses build and deliver better software than anything
+available to their competitors.
 
-Long term, we’ll be partnering with up-and-coming content creators to build, ship, and
-maintain productized services tailored for their audiences.
+Long term, we’ll be partnering with up-and-coming content creators to build,
+ship, and maintain productized services tailored for their audiences.
 
 ## Active Projects
 
@@ -40,57 +40,57 @@ maintain productized services tailored for their audiences.
 
 ## Employment History
 
-<!-- @include .readme/employment-history/maris.html         -->
-<!-- @include .readme/employment-history/bequick.html       -->
-<!-- @include .readme/employment-history/mcna.html          -->
-<!-- @include .readme/employment-history/web-dev.html       -->
-<!-- @include .readme/employment-history/screen-sized.html  -->
-<!-- @include .readme/employment-history/city-slicking.html -->
-<!-- @include .readme/employment-history/front-porch.html   -->
-<!-- @include .readme/employment-history/ekwipper.html      -->
-<!-- @include .readme/employment-history/web-designer.html  -->
+<!-- @include .readme/employment-history/maris.md         -->
+<!-- @include .readme/employment-history/bequick.md       -->
+<!-- @include .readme/employment-history/mcna.md          -->
+<!-- @include .readme/employment-history/web-dev.md       -->
+<!-- @include .readme/employment-history/screen-sized.md  -->
+<!-- @include .readme/employment-history/city-slicking.md -->
+<!-- @include .readme/employment-history/front-porch.md   -->
+<!-- @include .readme/employment-history/ekwipper.md      -->
+<!-- @include .readme/employment-history/web-designer.md  -->
 
 ## Contract Gigs
 
 <aside style="margin-top: -2.5rem;">Most of these are remote work.</aside>
 
-<!-- @include .readme/contract-gigs/outlier.html             -->
-<!-- @include .readme/contract-gigs/fidelity.html            -->
-<!-- @include .readme/contract-gigs/prism.html               -->
-<!-- @include .readme/contract-gigs/landrum.html             -->
-<!-- @include .readme/contract-gigs/paychex.html             -->
-<!-- @include .readme/contract-gigs/idexx.html               -->
-<!-- @include .readme/contract-gigs/chewy.html               -->
-<!-- @include .readme/contract-gigs/syrinx.html              -->
-<!-- @include .readme/contract-gigs/tg2.html                 -->
-<!-- @include .readme/contract-gigs/see-yourself-health.html -->
-<!-- @include .readme/contract-gigs/sefas.html               -->
-<!-- @include .readme/contract-gigs/octoscope.html           -->
-<!-- @include .readme/contract-gigs/iron-mountain.html       -->
-<!-- @include .readme/contract-gigs/torch-metrics.html       -->
-<!-- @include .readme/contract-gigs/crowd-lending.html       -->
-<!-- @include .readme/contract-gigs/baupost.html             -->
-<!-- @include .readme/contract-gigs/cloudhealth.html         -->
-<!-- @include .readme/contract-gigs/tsd.html                 -->
-<!-- @include .readme/contract-gigs/mirion.html              -->
-<!-- @include .readme/contract-gigs/smartbear.html           -->
-<!-- @include .readme/contract-gigs/uweave.html              -->
-<!-- @include .readme/contract-gigs/dentaquest.html          -->
-<!-- @include .readme/contract-gigs/mvps.html                -->
-<!-- @include .readme/contract-gigs/localytics.html          -->
-<!-- @include .readme/contract-gigs/conjur.html              -->
-<!-- @include .readme/contract-gigs/cumberland-farms.html    -->
-<!-- @include .readme/contract-gigs/paypal.html              -->
-<!-- @include .readme/contract-gigs/altman.html              -->
-<!-- @include .readme/contract-gigs/verizon.html             -->
-<!-- @include .readme/contract-gigs/arcadia.html             -->
+<!-- @include .readme/contract-gigs/outlier.md             -->
+<!-- @include .readme/contract-gigs/fidelity.md            -->
+<!-- @include .readme/contract-gigs/prism.md               -->
+<!-- @include .readme/contract-gigs/landrum.md             -->
+<!-- @include .readme/contract-gigs/paychex.md             -->
+<!-- @include .readme/contract-gigs/idexx.md               -->
+<!-- @include .readme/contract-gigs/chewy.md               -->
+<!-- @include .readme/contract-gigs/syrinx.md              -->
+<!-- @include .readme/contract-gigs/tg2.md                 -->
+<!-- @include .readme/contract-gigs/see-yourself-health.md -->
+<!-- @include .readme/contract-gigs/sefas.md               -->
+<!-- @include .readme/contract-gigs/octoscope.md           -->
+<!-- @include .readme/contract-gigs/iron-mountain.md       -->
+<!-- @include .readme/contract-gigs/torch-metrics.md       -->
+<!-- @include .readme/contract-gigs/crowd-lending.md       -->
+<!-- @include .readme/contract-gigs/baupost.md             -->
+<!-- @include .readme/contract-gigs/cloudhealth.md         -->
+<!-- @include .readme/contract-gigs/tsd.md                 -->
+<!-- @include .readme/contract-gigs/mirion.md              -->
+<!-- @include .readme/contract-gigs/smartbear.md           -->
+<!-- @include .readme/contract-gigs/uweave.md              -->
+<!-- @include .readme/contract-gigs/dentaquest.md          -->
+<!-- @include .readme/contract-gigs/mvps.md                -->
+<!-- @include .readme/contract-gigs/localytics.md          -->
+<!-- @include .readme/contract-gigs/conjur.md              -->
+<!-- @include .readme/contract-gigs/cumberland-farms.md    -->
+<!-- @include .readme/contract-gigs/paypal.md              -->
+<!-- @include .readme/contract-gigs/altman.md              -->
+<!-- @include .readme/contract-gigs/verizon.md             -->
+<!-- @include .readme/contract-gigs/arcadia.md             -->
 
 ## Defunct Projects
 
+<aside>Elixir handled this one like a champ.</aside>
 - **Idle Returns**<br />
-  <aside>Elixir handled this one like a champ.</aside>
-  A personal, automated investment system that recommends momentum trades by consuming
-  and analyzing way too much market data.
+  A personal, automated investment system that recommends momentum trades by
+  consuming and analyzing way too much market data.
 - [**Chassis**][chassis]<br />
   A mutable framework extension for Sinatra.
 
