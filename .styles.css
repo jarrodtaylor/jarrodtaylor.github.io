@@ -56,32 +56,34 @@ a {
 article {
   margin-bottom: 7rem;
 
-  a:empty {
+  > a {
     box-shadow: none;
-    color: inherit;
-    margin-left: .2em;
     color: light-dark(
       hsl(from darkslategray h s 80),
       darkslategray);
-
-    &::after { content: "☆"; }
+    font-size: 1.5rem;
+    margin-left: -.9em;
+    position: absolute;
 
     &:hover {
       background-color: transparent;
-      &::after { content: "★"; }
+      color: cadetblue;
     }
   }
 
-  time { display: none; }
-}
+  time, time + ul { display: none; }
 
-article.column {
-  border: 1px dashed light-dark(
-    hsl(from darkslategray h s 80),
-    darkslategray);
-  border-width: 1px 0;
-  border-top: 0;
-  padding-bottom: 7rem;
+  &.column > a { margin-top:  .25rem; }
+  &.link   > a { margin-top: -.25rem; }
+
+  &.column {
+    border: 1px dashed light-dark(
+      hsl(from darkslategray h s 80),
+      darkslategray);
+    border-width: 1px 0;
+    border-top: 0;
+    padding-bottom: 7rem;
+  }
 }
 
 article + article.column {
@@ -239,6 +241,7 @@ h3 {
   letter-spacing: 0;
   line-height: 1.5rem;
   margin-top: 1em;
+  text-transform: uppercase;
 }
 
 header {
@@ -364,20 +367,37 @@ table { width: 100%; }
 
 time {
   color: cadetblue;
-  display: block;
-  font-variation-settings: "wght" 300, "xtab" 1000;
-  margin-left: 13rem;
-  position: absolute;
-  text-align: right;
-  transform: rotate(3deg);
-  width: 13rem;
-  z-index: -1;
+  display: inline-block;
+  font-size: .9rem;
+  font-variation-settings: "wght" 350, "xtab" 1000;
+  margin-top: 3rem;
+}
+
+time + ul {
+  float: right;
+  font-size: .9rem;
+  list-style-type: none;
+  margin-right: -.5rem;
+  margin-top: 3rem;
+
+  li {
+    display: inline-block;
+    margin-right: .5rem;
+
+    a {
+      box-shadow: none;
+      color: cadetblue;
+      font-variation-settings: "wght" 350, "xtab" 1000;
+    }
+  }
 }
 
 article + time {
-  position: relative;
-  margin-bottom: 2rem;
-  margin-left: -1rem;
-  text-align: left;
-  transform: rotate(-3deg);
+  font-variation-settings: "wght" 500, "xtab" 1000;
+  font-size: 1rem;
+  margin: 0 0 4rem -1rem;
+}
+
+body.archive {
+  h3 { margin-bottom: 0; }
 }
