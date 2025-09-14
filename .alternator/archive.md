@@ -5,6 +5,9 @@
 ### 2025
 - [Sep](/2025/09)
 
+### 2023
+- [Feb](/2023/02)
+
 ### 2020
 - [Oct](/2020/10)
 
@@ -18,3 +21,4 @@
 - [#panthers](/topics/panthers)
 - [#podcasts](/topics/podcasts)
 - [#sci-fi](/topics/sci-fi)
+- [#society](/topics/society)
