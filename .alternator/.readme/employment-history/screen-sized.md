@@ -5,6 +5,6 @@
 @date: 2012
 @location: Atlanta, GA
 ---
-We went door-to-door selling mobile web design to local restaurants in Atlanta.
+We went door to door selling mobile web design to local restaurants in Atlanta.
 
 - Mobile Web Design

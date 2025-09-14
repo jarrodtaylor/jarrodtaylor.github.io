@@ -12,7 +12,7 @@ We ported their C++ network traffic tool multiPerf, to run on iOS, developing a
 way for app to communicate with control servers directly via Ethernet.
 
 - C++
-- Objective-C
+- Objective–C
 - PeerTalk
 - Swift
-- C++ to Objective-C and Swift bridging
+- C++ to Objective–C and Swift bridging

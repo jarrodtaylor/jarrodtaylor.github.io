@@ -8,9 +8,9 @@
 TSD designs and develops fleet mobility solutions for dealerships, automotive
 manufacturers, automotive groups, and car rental companies worldwide.
 
-We built their white-labeled mobile apps and supporting mid-tier services for
+We built their white labeled mobile apps and supporting mid–tier services for
 reserving cars, bikes, and golf carts. Customers can scan QR codes to rent
-vehicles on-the-fly.
+vehicles on the fly.
 
 - .Net
 - Xamarin

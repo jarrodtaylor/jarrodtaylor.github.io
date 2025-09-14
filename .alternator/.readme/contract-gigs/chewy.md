@@ -6,9 +6,9 @@
 @location: Plantation, FL
 ---
 Chewy combines the personalized service of your neighborhood pet store with the
-convenience and speed of e-commerce.
+convenience and speed of e–commerce.
 
-I helped convert their web design to be mobile-first.
+I helped convert their web design to be mobile first.
 
 - AngularJS
 - Ruby on Rails

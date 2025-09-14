@@ -12,7 +12,7 @@ I worked with them to develop iOS and Android SDKs for retailers. The SDKs
 leveraged PayPal services to manage payments, users, locations, products, and
 shopping sessions.
 
-We used Bluetooth Low Energy to interface with cash registers for in-store
+We used Bluetooth Low Energy to interface with cash registers for in–store
 digital payments.
 
 - Bluetooth Low Energy

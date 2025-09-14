@@ -6,7 +6,7 @@
 @location: Coconut Creek, FL
 ---
 SmartBear provides a portfolio of trusted tools that give software development
-teams around the world visibility into end-to-end quality through test
+teams around the world visibility into end–to–end quality through test
 management and automation, API development lifecycle, and application stability,
 ensuring each software release is better than the last.
 
