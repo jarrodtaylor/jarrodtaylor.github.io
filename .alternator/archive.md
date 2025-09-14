@@ -8,7 +8,13 @@
 ### 2020
 - [Oct](/2020/10)
 
+### 2008
+- [Sep](/2008/09)
+
+- [#books](/topics/books)
 - [#hockey](/topics/hockey)
+- [#learning](/topics/learning)
 - [#midnight-burger](/topics/midnight-burger)
 - [#panthers](/topics/panthers)
+- [#podcasts](/topics/podcasts)
 - [#sci-fi](/topics/sci-fi)

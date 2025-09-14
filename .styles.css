@@ -426,7 +426,7 @@ body.archive {
 
     li {
       display: inline-block;
-      margin-right: .4rem;
+      margin: 0 .2rem;
     }
   }
 }
