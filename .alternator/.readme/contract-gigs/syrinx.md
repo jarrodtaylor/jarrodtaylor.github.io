@@ -5,7 +5,8 @@
 @date: 2021
 @location: Needham, MA
 ---
-Designed and developed our marketing website with a custom GitHub Wiki based CMS.
+I redesigned and developed our marketing website with a custom GitHub Wiki based
+CMS.
 
 - Elixir
 - Phoenix

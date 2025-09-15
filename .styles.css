@@ -331,7 +331,7 @@ nav {
   a:nth-child(2) {  left: calc(50% + 3.5rem); }
 
   a:nth-child(3) {
-    background-image: url("/.assets/avatar.gif");
+    background-image: url("/.assets/outline.gif");
     background-position-x: -100%;
     background-size: auto 100%;
     box-shadow: none;
@@ -344,7 +344,7 @@ nav {
     transition: background-position-x;
     transition-delay: .2s;
     width: 5rem;
-    filter: brightness(97%);
+    /* filter: brightness(97%); */
 
     &.up, &:hover {
       background-position-x: -200%;

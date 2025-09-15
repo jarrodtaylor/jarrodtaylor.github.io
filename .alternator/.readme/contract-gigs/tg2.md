@@ -10,7 +10,7 @@ field oriented organizations who are looking to streamline and simplify
 operations.
 
 We designed and developed a cross platform mobile app for collecting and
-managing inspection data with a dynamic inspection form UX along with database,
+managing inspection data with a dynamic inspection form UX + database, custom
 reporting, and map visualization tools.
 
 - Xamarin

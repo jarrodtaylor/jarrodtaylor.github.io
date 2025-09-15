@@ -8,8 +8,8 @@
 octoScope is the market leader in isolated, repeatable and automated wireless
 personal testbeds.
 
-We ported their C++ network traffic tool multiPerf, to run on iOS, developing a
-way for app to communicate with control servers directly via Ethernet.
+We ported their C++ network traffic tool, multiPerf, to run on iOS, developing a
+way for the app to communicate with control servers directly via Ethernet.
 
 - C++
 - Objective–C
