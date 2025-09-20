@@ -1,6 +1,5 @@
 ---
-@layout: ._/layout.html
-@type: column
+@layout: .layout.html
 ---
 # Style Guide
 
