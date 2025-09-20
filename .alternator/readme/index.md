@@ -38,7 +38,9 @@
 
 ## Contract Gigs
 
-<aside class="left" style="margin-top: -1.67rem;">Most of these are remote work.</aside>
+<aside class="left" style="margin-top: -1.67rem;">
+  Most of these are remote work.
+</aside>
 
 <!-- @include readme/.contract-gigs/outlier.md             -->
 <!-- @include readme/.contract-gigs/fidelity.md            -->
