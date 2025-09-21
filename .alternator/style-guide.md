@@ -3,7 +3,25 @@
 ---
 # Style Guide
 
-Always under construction. Never up–to–date.
+Reference document for remembering how to write.
+
+## Apostrophe
+
+- Contractions
+
+- Possesion
+
+- Not pluralization
+
+## Ellipsis
+
+## Em–Dash
+
+## En–Dash
+
+## Quotation Marks
+
+## Semicolon
 
 ## Shortcuts
 
@@ -15,3 +33,7 @@ Always under construction. Never up–to–date.
 | ’	&nbsp; | Quotation (single closing)	| `Option + Shift + ]` |
 | “	&nbsp; | Quotation (double opening)	| `Option + [`         |
 | ”	&nbsp; | Quotation (double closing)	| `Option + Shift + [` |
+
+<style>
+  table tr td:first-child { text-align: center; }
+</style>
