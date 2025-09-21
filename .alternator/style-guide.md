@@ -5,13 +5,15 @@
 
 Reference document for remembering how to write.
 
-## Apostrophe
+<!-- ## Apostrophe
 
 - Contractions
 
 - Possesion
 
 - Not pluralization
+
+## Comma
 
 ## Ellipsis
 
@@ -21,7 +23,7 @@ Reference document for remembering how to write.
 
 ## Quotation Marks
 
-## Semicolon
+## Semicolon -->
 
 ## Shortcuts
 
