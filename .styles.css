@@ -228,6 +228,7 @@ header {
     color: light-dark(lightgray, dimgray);
     margin-left: .67rem;
     text-transform: lowercase;
+    &:hover { margin-left: .5rem; }
   }
 }
 
