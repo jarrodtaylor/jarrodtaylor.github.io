@@ -25,6 +25,11 @@ Reference document for remembering how to write.
 
 ## Shortcuts
 
+Encoded pages as UTF–8 to use these characters directly;
+no need for HTML decimals.
+
+`<meta charset="utf-8">`
+
 | ’ &nbsp; | Apostrophe                 | `Option + Shift + ]` |
 | – &nbsp; | En-dash                    | `Option + -`         |
 |	—	&nbsp; | Em-dash                    | `Option + Shift + -` |
@@ -35,5 +40,6 @@ Reference document for remembering how to write.
 | ”	&nbsp; | Quotation (double closing)	| `Option + Shift + [` |
 
 <style>
+  table { font-size: .8rem; }
   table tr td:first-child { text-align: center; }
 </style>
