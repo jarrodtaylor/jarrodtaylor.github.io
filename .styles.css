@@ -114,7 +114,7 @@ details {
     &:hover { cursor: pointer; }
 
     cite {
-      color: #666;
+      color: light-dark(#666, #999);
       display: block;
       font-style: normal;
       font-size: .8rem;
@@ -123,7 +123,7 @@ details {
     }
 
     time {
-      color: #666;
+      color: light-dark(#666, #999);
       float: right;
       font-size: .8rem;
       font-weight: 400;
