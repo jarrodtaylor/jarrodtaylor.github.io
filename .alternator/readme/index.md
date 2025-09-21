@@ -8,7 +8,7 @@
 
 ## Projects
 
-<aside class="left">This site is published with Alternator.</aside>
+<aside class="right">This site is published with Alternator.</aside>
 
 - [**Alternator**][alternator]<br />
   A CLI tool for building static websites on your Mac. Layouts, includes, and

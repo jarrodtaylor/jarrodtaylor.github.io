@@ -133,6 +133,14 @@ details {
       padding-top: .2rem;
       text-align: right;
     }
+
+    &:hover {
+      background-color: #212121;
+      border-radius: .33rem;
+      padding: .33rem;
+      margin: -.33rem;
+      margin-left: -1.06rem;
+    }
   }
 
   div {
@@ -163,6 +171,7 @@ details {
     summary {
       margin-left: -.85rem;
       cite { padding-left: .85rem; }
+      &:hover { margin-left: -1.16rem; }
     }
   }
 }
