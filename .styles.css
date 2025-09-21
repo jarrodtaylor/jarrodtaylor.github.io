@@ -40,6 +40,7 @@
   color: light-dark(black, gainsboro);
   color-scheme: light dark;
   font: 13px/1.33 text, sans-serif;
+  font-weight: 300;
 
   @media (min-width: 26rem) { font-size: 14px; }
   @media (min-width: 28rem) { font-size: 15px; }
@@ -79,6 +80,7 @@ aside {
   color: slategray;
   font-size: .9rem;
   font-family: handwriting;
+  font-weight: 400;
   position: absolute;
   width: 7.33rem;
 
@@ -104,6 +106,7 @@ body {
 code {
   background-color: light-dark(#efefef, #212121);
   font-family: code, monospace;
+  font-weight: 300;
   font-size: .8rem;
   padding: 0 .2rem;
 }
@@ -112,16 +115,23 @@ details {
   margin-bottom: .33rem;
 
   summary {
-    font-weight: 500;
+    font-weight: 400;
     margin-left: -.75rem;
-    &:hover { cursor: pointer; }
+
+    &:hover {
+      background-color: light-dark(whitesmoke, #212121);
+      border-radius: .33rem;
+      cursor: pointer;
+      padding: .33rem;
+      margin: -.33rem;
+      margin-left: -1.06rem;
+    }
 
     cite {
       color: light-dark(#666, #999);
       display: block;
       font-style: normal;
       font-size: .8rem;
-      font-weight: 400;
       padding-left: .75rem;
     }
 
@@ -129,17 +139,8 @@ details {
       color: light-dark(#666, #999);
       float: right;
       font-size: .8rem;
-      font-weight: 400;
       padding-top: .2rem;
       text-align: right;
-    }
-
-    &:hover {
-      background-color: #212121;
-      border-radius: .33rem;
-      padding: .33rem;
-      margin: -.33rem;
-      margin-left: -1.06rem;
     }
   }
 
@@ -159,6 +160,7 @@ details {
         color: gray;
         display: inline-block;
         font-size: .67rem;
+        font-weight: 300;
         margin: .2em;
         padding: 0 .25em;
       }
@@ -270,6 +272,6 @@ ol, ul {
 
 p { margin: 0 0 .67rem 0; }
 
-strong { font-weight: 500; }
+strong { font-weight: 400; }
 
 table { width: 100%; }
