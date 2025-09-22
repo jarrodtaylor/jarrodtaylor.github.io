@@ -3,7 +3,43 @@
 ---
 # Style Guide
 
-Reference document for remembering how to write.
+- [Ellipsis](#ellipsis)
+- [Shortcuts](#shortcuts)
+
+<h2 id="ellipsis">Ellipsis</h2>
+
+Use an ellipsis to indicate unstated words, omitted text, or intentional
+silence.
+
+### Unstated Words
+
+Use leading and trailing spaces without punctuation.
+
+> _I never drink wine …_
+
+Quotation marks omit the trailing space.
+
+> _“I never drink wine …”_
+
+Other punctuation marks omit both spaces.
+
+> _I never drink wine…!_
+
+### Omitted Text
+
+Use surrounding brackets when condensing a quote.
+
+> _Frankly […] I don't give a damn._
+
+### Intentional Silence
+
+Use an ellipsis as its own line to indicate intentional silence.
+
+> _Where shall I go? What shall I do?_
+> <br />
+> …
+> <br />
+> _Frankly, my dear, I don't give a damn._
 
 <!-- ## Apostrophe
 
@@ -15,8 +51,6 @@ Reference document for remembering how to write.
 
 ## Comma
 
-## Ellipsis
-
 ## Em–Dash
 
 ## En–Dash
@@ -25,7 +59,7 @@ Reference document for remembering how to write.
 
 ## Semicolon -->
 
-## Shortcuts
+<h2 id="shortcuts">Shortcuts</h2>
 
 Encoded pages as UTF–8 to use these characters directly;
 no need for HTML decimals.

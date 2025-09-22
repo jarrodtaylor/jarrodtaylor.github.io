@@ -4,7 +4,7 @@
 ## Works in Progress
 
 - [**Style Guide**][style-guide]<br />
-  Reference document for remembering how to write.
+  Reference for remembering how to write on the web.
 
 ## Projects
 
