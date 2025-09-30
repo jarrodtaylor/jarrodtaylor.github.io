@@ -3,8 +3,12 @@
 ---
 # Style Guide
 
+---
+
 - [Ellipsis](#ellipsis)
 - [Shortcuts](#shortcuts)
+
+---
 
 <h2 id="ellipsis">Ellipsis</h2>
 
@@ -76,6 +80,5 @@ no need for HTML decimals.
 | ”	&nbsp; | Quotation (double closing)	| `Option + Shift + [` |
 
 <style>
-  table { font-size: .8rem; }
   table tr td:first-child { text-align: center; }
 </style>

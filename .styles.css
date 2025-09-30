@@ -41,16 +41,14 @@
        url("/.fonts/black.woff") format("woff2-variations"); }
 
 :root {
-  background-color: light-dark(white, #121212);
-  color: light-dark(black, gainsboro);
-  color-scheme: light dark;
+  background-color: snow;
+  color: #333;
   font: 13px/1.5 text, sans-serif;
-  font-weight: 300;
 
   @media (min-width: 26rem) { font-size: 14px; }
   @media (min-width: 28rem) { font-size: 15px; }
   @media (min-width: 30rem) { font-size: 16px; }
-
+  /* ---------- Add margin writing ---------- */
   @media (min-width: 48rem) { font-size: 17px; }
   @media (min-width: 51rem) { font-size: 18px; }
   @media (min-width: 54rem) { font-size: 19px; }
@@ -63,16 +61,16 @@
   @media (min-width: 75rem) { font-size: 26px; }
 }
 
-::selection { background-color: light-dark(cyan, darkcyan); }
+::selection { background-color: cyan; }
 
 a {
-  color: inherit;
+  color: darkslategray;
   text-decoration: underline;
 
-  &:hover {
+  &:hover, &:hover strong {
     background-color: yellow;
-    border-radius: .07rem;
-    color: black;
+    border-radius: .0625rem;
+    color: black !important;
     padding: 0 .25rem;
     margin: 0 -.25rem;
     text-decoration: none;
@@ -82,7 +80,7 @@ a {
 aside {
   @media (max-width: 45rem) { display: none; }
 
-  color: slategray;
+  color: teal;
   font-size: .9rem;
   font-family: handwriting;
   font-weight: 400;
@@ -91,7 +89,7 @@ aside {
   width: 7.5rem;
 
   &.left {
-    margin-left: -9.5rem;;
+    margin-left: -9.5rem;
     text-align: right;
     transform: rotate(-2deg);
   }
@@ -103,17 +101,12 @@ aside {
   }
 }
 
-/* TODO: Get the variable font.
-         Set default to 350 (book) and blockquotes to 300 or 400. */
 blockquote {
-  background-color: light-dark(
-    hsl(from #212121 h s l / .025),
-    hsl(from white h s l / .025));
-  border-left: .25rem solid light-dark(gainsboro, #212121);
+  border-left: .25rem double gainsboro;
   border-bottom-right-radius: .25rem;
   border-top-right-radius: .25rem;
   margin: 0 .25rem .5rem .25rem;
-  padding: .5rem 1rem;
+  padding: .5rem .75rem;
 }
 
 body {
@@ -123,82 +116,11 @@ body {
 }
 
 code {
-  background-color: light-dark(
-    hsl(from #212121 h s l / .025),
-    hsl(from white h s l / .025));
-  border-radius: .07rem;
+  border-radius: .0625rem;
+  color: black;
   font-family: code, monospace;
-  font-weight: 300;
+  font-size: .875rem;
   padding: 0 .125rem;
-}
-
-details {
-  margin-bottom: .5rem;
-
-  summary {
-    font-weight: 400;
-    margin-left: -.75rem;
-
-    &:hover {
-      background-color: light-dark(whitesmoke, #212121);
-      border-radius: .25rem;
-      cursor: pointer;
-      padding: .5rem .75rem .5rem .5rem;
-      margin: -.5rem -.75rem -.5rem -1.25rem;
-    }
-
-    cite {
-      color: light-dark(#666, #999);
-      display: block;
-      font-style: normal;
-      font-size: .75rem;
-      padding-left: .75rem;
-      margin-top: -.15rem;
-    }
-
-    time {
-      color: light-dark(#666, #999);
-      float: right;
-      font-size: .75rem;
-      padding-top: .25rem;
-      text-align: right;
-    }
-  }
-
-  div {
-    border-left: .25rem solid light-dark(whitesmoke, #212121);
-    margin-left: -.65rem;
-    margin-top: .5rem;
-    padding-left: .4rem;
-
-    ul {
-      font-family: code, monospace;
-      font-size: 0;
-
-      li {
-        background-color: light-dark(
-          hsl(from #212121 h s l / .025),
-          hsl(from white h s l / .025));
-        border-radius: .07rem;
-        color: gray;
-        display: inline-block;
-        font-size: .75rem;
-        font-weight: 300;
-        margin: .25rem .25em 0 0;
-        padding: 0 .25em;
-      }
-    }
-  }
-
-  &[open] {
-    margin-bottom: 1rem;
-
-    summary {
-      margin-left: -.85rem;
-      cite { padding-left: .85rem; }
-      &:hover { margin-left: -1.35rem; }
-    }
-  }
 }
 
 footer {
@@ -232,23 +154,23 @@ img, video {
 h1, h2{ font-size: 1rem; }
 
 h1 {
-  color: light-dark(black, whitesmoke);
+  color: black;
   font-weight: 900;
   margin: 2rem 0 1rem 0;
   text-transform: uppercase;
 }
 
 h2 {
-  color: light-dark(firebrick, ghostwhite);
+  color: firebrick;
   font-weight: 700;
   margin: 2rem 0 .5rem 0;
 }
 
 h3 {
-  font-size: .75rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin: 2rem 0 .5rem 0;
+  color: #121212;
+  font-weight: 700;
+  font-variant: all-small-caps;
+  margin: 1rem 0 .5rem 0;
 }
 
 header {
@@ -260,14 +182,10 @@ header {
     font-size: 1rem;
     margin-right: 1rem;
     text-decoration: none;
-
-    &:hover {
-      color: black !important;
-      margin-right: .75rem;
-    }
+    &:hover { margin-right: .75rem; }
   }
 
-  a:first-child { color: deepskyblue; }
+  a:first-child { color: mediumblue; }
 
   a:last-child {
     color: light-dark(lightgray, dimgray);
@@ -277,22 +195,25 @@ header {
 
 hr {
   border: none;
-  background-color: light-dark(gainsboro, #212121);
+  background-color: gainsboro;
   height: .25rem;
   margin: 2rem 0;
+  opacity: .125;
 }
 
 main {
   position: relative;
-  *:first-child { margin-top: 0;    }
+  *:first-child { margin-top:    0; }
   *:last-child  { margin-bottom: 0; }
 }
 
 mark {
   background-color: greenyellow;
-  border-radius: .07rem;
-  color: black;
+  border-radius: .0625rem;
+  color: #111;
+  font-weight: 500;
   padding: 0 .125rem;
+  margin: 0 -.125rem;
 }
 
 ol, ul {
@@ -301,12 +222,18 @@ ol, ul {
 
   li {
     margin-bottom: .5rem;
-    &::marker { color: light-dark(gainsboro, #212121); }
+    &::marker { color: gainsboro; }
   }
 }
 
-p { margin: 0 0 .5rem 0; }
+p {
+  margin: 0 0 .5rem 0;
+  strong { font-weight: 700; }
+}
 
-strong { font-weight: 400; }
+strong {
+  color: #111;
+  font-weight: 500;
+}
 
 table { width: 100%; }

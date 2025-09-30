@@ -1,0 +1,293 @@
+---
+@layout: .layout.html
+---
+
+# Résumé
+
+---
+
+- [Download]() as a PDF
+- Go to [Employment History](#employment-history)
+- Go to [Contract Gigs](#contract-gigs)
+
+---
+
+I’ve been lucky to work with many talented people over the years at all kinds of
+agencies, startups, local shops, and big tech companies. We built some awesome
+digital products and services used every day by thousands of businesses and
+millions of customers all around the world.
+
+I’m interested in roles, preferably client–facing, where I can help drive
+product, take ownership of process, and still do a good amount of
+hands–on engineering.
+
+While I enjoy the occasional business trip, I mostly work online from West
+Palm Beach, FL.
+
+<h2 id="employment-history">Employment History</h2>
+
+### Associate Partner @ Syrinx/Maris Consulting ~ 2013–2024
+
+In 2013 I started at Syrinx Consulting as a customer–facing Senior
+Software Engineer where I contracted with dozens of companies all around
+the US. We worked on everything from turning back–of–a–napkin sketches into
+shipping products all the way up to enterprise development. I like working
+directly with clients so I got involved with sales engineering,
+ project discovery/scoping, and building teams.
+
+In 2016 I was made an associate partner and, in addition to
+hands–on development, began acting as a team lead and
+ project manager.
+
+In 2022 Syrinx was acquired by DeWinter Group and began operating
+as Maris Consulting.
+
+### Managing Member @ Screen Sized ~ 2012–2013
+
+Screen Sized was a web development agency. We built the platform that
+managed block ticket sales for sites like Grand Prix Experiences and NFL Pro
+Bowl On Location.
+
+### Cofounder + CTO @ City Slicking ~ 2011
+
+City Slicking was a startup that advertised locally for small businesses using
+quantity discounts/assurance contracts as promotions. I built all the
+things.
+
+### Research & Development Engineer @ Front Porch ~ 2011
+
+<aside class="right">You’ve likely used this before.</aside>
+
+Front Porch is a hotspot ISP and advertising platform whose main product at the
+time was a router for hotels that showed ads when visitors joined the wifi
+network. The growth of 3G necessitated a new strategy. My role was to
+foster new ideas and turn them into prototypes, bypassing the typically slow
+engineering timelines and red tape.
+
+### UX Designer + Full–Stack Developer @ eKwipper ~ 2009–2011
+
+<aside class="left">My first startup experience.</aside>
+
+I was employee #5 at eKwipper, a platform for managing grocery
+coupons that would consolidate savings into a single barcode, integrating with
+cash registers and clearinghouses. I was first brought on to create the consumer
+desktop web app. Once that was stable, I redesigned and rebuilt the mobile app,
+helped design the B2B management UX, and worked with the engineering team on
+cash register integration.
+
+### Freelance Web Designer ~ 2001–2009
+
+<aside class="right">Remember Macromedia?</aside>
+
+My first professional work was designing websites for local small businesses.
+They were mostly brochure sites where I handled design, development, hosting,
+and promotion.
+
+<h2 id="contract-gigs">Contract Gigs</h2>
+
+### Outlier Jets ~ 2025–Current
+
+Outlier Jets is the industry leading private jet company providing global access
+to aircraft every hour of the day, a fixed–rate jet card program, and aircraft
+valuation and sales services. I work with them to refine and build new ideas to
+promote their products and services.
+
+### Fidelity Investments ~ 2022–2024
+
+Fidelity Investments serves over 40 million investors and manages over $9
+trillion in customer assets. I worked with their OnSite Hub team to ship an
+internal app for employees to book desks and conference rooms to fit their
+hybrid schedules and coordinate in–person working sessions with their
+teams. I also worked with their Bloom team to build a scalable
+configuration system to customize their Bloom app for universities and
+corporate sponsors.
+
+### PrismHR ~ 2022–2024
+
+PrismHR is the leading HR platform for companies to manage their payroll,
+benefits, compliance, and other HR responsibilities. We worked together to build
+a cross–platform mobile app around their Employee Portal with private
+label builds branded for Prism customers.
+
+###  LandrumHR ~ 2023
+
+LandrumHR offers integrated, customizable services including payroll, employee
+benefits, risk management, workers’ comp, compliance, consulting and training. I
+led the development branded mobile apps for their employee portal based on the
+PrismHR private label apps.
+
+### Paychex ~ 2023
+
+Paychex is a leading provider of integrated human capital management solutions
+for payroll, benefits, human resources, and insurance services. I led the
+development branded mobile apps for their employee portal based on the PrismHR
+private label apps.
+
+### IDEXX Laboratories ~ 2021–2022
+
+IDEXX is a leader in pet healthcare, serving veterinarians around the world with
+diagnostic and information tech–based products/services. Their Preventative Care
+Challenge tool allows vets access to customized testing panels and protocols,
+pet owner communication tools, and personalized training. I worked alongside the
+PCC team on their Australian market rollout. We handled AU English
+localization, integrated SAP Global, added support for AU–specific test panels,
+pricing, and discounts, created custom reporting, revamped the emailing system,
+then hired and trained new developers to take over.
+
+### Chewy ~ 2021
+
+Chewy combines the personalized service of your neighborhood pet store with the
+convenience of e–commerce. I worked with their UX team to update their website
+to a mobile first design.
+
+### Syrinx Consulting ~ 2021
+
+I redesigned and developed our own marketing website with a custom GitHub
+Wiki as a custom CMS.
+
+### Tg2 Solutions ~ 2019–2021
+
+Tg2 provides complete solutions for field–oriented organizations looking to
+streamline operations. I led the mobile development of DataSolv, their
+cross–platform app that collects and manages inspection data, creating a
+new dynamic UX for input forms, data sync, custom reporting, and map
+visualization tools.
+
+### See Yourself Health ~ 2020
+
+See Yourself Health connects diabetics with fellow peers and health
+professionals to create a community striving towards better health. I led the
+development a cross–platform mobile app featuring an animated, interactive
+avatar that helped patients track and report symptoms.
+
+### Sefas Innovation ~ 2020
+
+Sefas is a global leader in omni channel customer communications management.
+I worked with their engineering team to develop composable, configurable
+UX components for their customer onboarding and job tracking apps.
+
+### octoScope ~ 2020
+
+octoScope is the market leader in isolated, repeatable and automated wireless
+personal testbeds. We ported their network traffic tool, multiPerf, from
+C++ to run on iOS and developing a way for the new app to communicate with
+servers via Ethernet.
+
+### Iron Mountain ~ 2019
+
+Iron Mountain is a global leader in storage and information management services
+and trusted by 95% of the Fortune 1,000. I was contracted to build custom UX
+components for their internal data management platform.
+
+### TorchMetrics ~ 2019
+
+TorchMetrics provides specific feedback for taking your presentation skills to
+the next level. I put together a team to build the second and third versions of
+the customer facing web app.
+
+### CloudHealth by VMWare ~ 2018–2019
+
+CloudHealth provides cloud computing services related to cost management,
+governance, automation, security, and performance. I worked with their UX
+team to implement a new design system, their frontend teams to
+ build new features for tracking server health, and their backend
+teams convert their internal APIs to RESTful services and to
+ integrate new third–party APIs.
+
+### Crowd Lending, Inc. ~ 2018
+
+Crowd Lending is Greater Boston’s preferred private real estate lender. I
+designed their initial marketing website.
+
+### The Baupost Group ~ 2018
+
+The Baupost Group is a Boston–based investment manager with a long–term,
+value–oriented, multi–strategy approach to investing. I led the frontend design,
+architecture, development, and testing of their internal reporting portal.
+
+### TSD Mobility Solutions ~ 2017
+
+TSD develops fleet mobility solutions for auto dealerships, manufacturers,
+groups, and rental companies. I led the development of their private label
+mobile apps that enable customers to rent vehicles on the fly using QR
+codes.
+
+### Mirion Meriden Corp ~ 2017
+
+Mirion is a global leader in radiation safety, science and medicine. I managed a
+two–person team that converted their nuclear measurement and detection hardware
+management app from Flash to HTML + vanilla JavaScript.
+
+### SmartBear ~ 2016
+
+SmartBear provides a portfolio of tools that give software development
+teams around the world visibility into end–to–end quality. We prototyped a
+ custom cross–platform mobile browser designed for automating
+testing.
+
+### UWeave ~ 2016
+
+UWeave was a cross–platform mobile news app with an innovative UX. We worked
+together to come up with a circular navigation interface.
+
+### DentaQuest ~ 2016
+
+DentaQuest manages dental and vision benefits for millions of Americans through
+a nationwide network of providers. We put together a small team to develop a
+patient record tracking system that was installed on–site in dental offices.
+
+### Odysee, GoalMate, FlashTag ~ 2015
+
+Odysee, GoalMate, and FlashTag were a trio of mobile social networking apps
+based around pictures and videos. I worked directly with the founders to
+develop MVP versions of all three apps from the ground up and launch them
+in the app stores.
+
+### Upland Localytics ~ 2015
+
+Localytics is a mobile marketing solution for creating personalized mobile app
+experiences that drive engagement, loyalty, and conversion. I integrated
+Twitter’s advertising API into their app and consulted on the design of
+their payment processing integrations.
+
+### Conjur, Inc. ~ 2015
+
+Conjur delivers solutions for identity and access management for machines, code,
+and the people who work with them. I helped with AWS config setup and training.
+
+### Cumberland Farms ~ 2013–2015
+
+Cumberland Farms operates over five hundred retail stores, gas stations, and a
+support system including petroleum and grocery distribution operations. I worked
+with a team of three engineers to build the initial version of the SmartPay app,
+mid–tier services, high–availability servers, and pay–at–the–pump technology.
+The platform is one of the first successful examples of a decoupled debit card
+program, having processed over $5 billion in payments while saving hundreds of
+thousands of customers 10¢/gallon.
+
+### PayPal ~ 2014
+
+PayPal is a financial technology company operating an online payments system. I
+coordinated with dozens of teams to build a pair of mobile app SDKs for
+retailers to leverage PayPal’s services in their own apps and then developed a
+new way to handle digital in–store payments using Bluetooth Low Energy to
+interface with registers.
+
+### Altman Vilandrie & Company ~ 2014
+
+Altman is one of the world’s largest global strategy consulting firms. I paired
+with their backend engineering team to develop a statistical significance
+algorithm for brand health tracking data and consulted on system architecture
+for the then–upcoming new version of their platform.
+
+### Verizon ~ 2014
+
+Verizon is the world’s second largest telecommunications company. I helped their
+advertising department by building proof–of–concept apps to showcase the
+possibilities of advertising on their mobile network.
+
+### Arcadia Healthcare Solutions ~ 2013–2014
+
+Arcadia is a cloud–based healthcare data management platform. I contracted as
+solo as a full–stack developer to build an app for employees to opt out of
+company sponsored health insurance.
