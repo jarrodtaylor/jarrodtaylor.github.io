@@ -9,6 +9,7 @@
 - [**Alternator**][alternator]<br />
   A CLI tool for building static websites on your Mac. Layouts, includes, and
   variables in HTML, CSS, and JS. Markdown built–in. Localhost server optional.
+
 - [**We Ship Software**][wss]<br />
   A tech agency I run with [Richard][richard] where we help growing businesses
   build and deliver better software than anything available to their

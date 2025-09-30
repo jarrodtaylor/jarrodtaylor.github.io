@@ -6,23 +6,23 @@
 
 ---
 
-- [Download]() as a PDF
+- <a href="/.downloads/Jarrod-Taylor-resume.pdf" download>Download</a> as a PDF
 - Go to [Employment History](#employment-history)
 - Go to [Contract Gigs](#contract-gigs)
 
 ---
 
 I’ve been lucky to work with many talented people over the years at all kinds of
-agencies, startups, local shops, and big tech companies. We built some awesome
-digital products and services used every day by thousands of businesses and
-millions of customers all around the world.
+agencies, startups, local shops, and big tech companies. We built some _awesome_
+digital goods and services **used every day by thousands of businesses and
+millions of customers all around the world**.
 
-I’m interested in roles, preferably client–facing, where I can help drive
-product, take ownership of process, and still do a good amount of
-hands–on engineering.
+I’m interested in roles, preferably **client–facing**, where I can help **drive
+product**, take **ownership of process**, and still do a good amount of
+**hands–on engineering**.
 
-While I enjoy the occasional business trip, I mostly work online from West
-Palm Beach, FL.
+While I enjoy the occasional business trip, I mostly work online from **West
+Palm Beach, FL**.
 
 <h2 id="employment-history">Employment History</h2>
 
@@ -30,14 +30,12 @@ Palm Beach, FL.
 
 In 2013 I started at Syrinx Consulting as a customer–facing Senior
 Software Engineer where I contracted with dozens of companies all around
-the US. We worked on everything from turning back–of–a–napkin sketches into
-shipping products all the way up to enterprise development. I like working
-directly with clients so I got involved with sales engineering,
- project discovery/scoping, and building teams.
+the US. We turned ideas into shipping products and scaled services to millions
+of users.
 
-In 2016 I was made an associate partner and, in addition to
-hands–on development, began acting as a team lead and
- project manager.
+In 2016 I was made an associate partner and, in addition to hands–on
+development, was involved in sales engineering, project discovery/scoping,
+putting teams together, and acting as a project lead and product manager.
 
 In 2022 Syrinx was acquired by DeWinter Group and began operating
 as Maris Consulting.
@@ -59,9 +57,9 @@ things.
 <aside class="right">You’ve likely used this before.</aside>
 
 Front Porch is a hotspot ISP and advertising platform whose main product at the
-time was a router for hotels that showed ads when visitors joined the wifi
+time was a router for hotels that showed ads when visitors joined their wifi
 network. The growth of 3G necessitated a new strategy. My role was to
-foster new ideas and turn them into prototypes, bypassing the typically slow
+foster ideas and turn them into prototypes, bypassing the typically slow
 engineering timelines and red tape.
 
 ### UX Designer + Full–Stack Developer @ eKwipper ~ 2009–2011
@@ -90,38 +88,37 @@ and promotion.
 Outlier Jets is the industry leading private jet company providing global access
 to aircraft every hour of the day, a fixed–rate jet card program, and aircraft
 valuation and sales services. I work with them to refine and build new ideas to
-promote their products and services.
+promote their product.
 
 ### Fidelity Investments ~ 2022–2024
 
 Fidelity Investments serves over 40 million investors and manages over $9
 trillion in customer assets. I worked with their OnSite Hub team to ship an
-internal app for employees to book desks and conference rooms to fit their
+internal app for staff to book desks and conference rooms that fit their
 hybrid schedules and coordinate in–person working sessions with their
-teams. I also worked with their Bloom team to build a scalable
-configuration system to customize their Bloom app for universities and
+teams. I then worked with their Bloom team to build the scalable
+configuration system that customizes the Bloom apps for universities and
 corporate sponsors.
 
 ### PrismHR ~ 2022–2024
 
 PrismHR is the leading HR platform for companies to manage their payroll,
 benefits, compliance, and other HR responsibilities. We worked together to build
-a cross–platform mobile app around their Employee Portal with private
+cross–platform mobile apps around their Employee Portal, with private
 label builds branded for Prism customers.
 
 ###  LandrumHR ~ 2023
 
 LandrumHR offers integrated, customizable services including payroll, employee
 benefits, risk management, workers’ comp, compliance, consulting and training. I
-led the development branded mobile apps for their employee portal based on the
-PrismHR private label apps.
+led the development of branded mobile apps for their employee portal based on
+the PrismHR private label apps.
 
 ### Paychex ~ 2023
 
 Paychex is a leading provider of integrated human capital management solutions
-for payroll, benefits, human resources, and insurance services. I led the
-development branded mobile apps for their employee portal based on the PrismHR
-private label apps.
+for payroll, benefits, HR, and insurance services. I led the development branded
+mobile apps for their employee portal based on the PrismHR private label apps.
 
 ### IDEXX Laboratories ~ 2021–2022
 
@@ -157,7 +154,7 @@ visualization tools.
 
 See Yourself Health connects diabetics with fellow peers and health
 professionals to create a community striving towards better health. I led the
-development a cross–platform mobile app featuring an animated, interactive
+development of a cross–platform mobile app featuring an animated, interactive
 avatar that helped patients track and report symptoms.
 
 ### Sefas Innovation ~ 2020
@@ -168,9 +165,9 @@ UX components for their customer onboarding and job tracking apps.
 
 ### octoScope ~ 2020
 
-octoScope is the market leader in isolated, repeatable and automated wireless
+octoScope is the market leader in isolated, repeatable, and automated wireless
 personal testbeds. We ported their network traffic tool, multiPerf, from
-C++ to run on iOS and developing a way for the new app to communicate with
+C++ to run on iOS and developed a way for the new app to communicate with
 servers via Ethernet.
 
 ### Iron Mountain ~ 2019
@@ -183,7 +180,7 @@ components for their internal data management platform.
 
 TorchMetrics provides specific feedback for taking your presentation skills to
 the next level. I put together a team to build the second and third versions of
-the customer facing web app.
+their customer facing web app.
 
 ### CloudHealth by VMWare ~ 2018–2019
 
@@ -212,9 +209,9 @@ groups, and rental companies. I led the development of their private label
 mobile apps that enable customers to rent vehicles on the fly using QR
 codes.
 
-### Mirion Meriden Corp ~ 2017
+### Mirion Meriden Corp. ~ 2017
 
-Mirion is a global leader in radiation safety, science and medicine. I managed a
+Mirion is a global leader in radiation safety, science, and medicine. I managed a
 two–person team that converted their nuclear measurement and detection hardware
 management app from Flash to HTML + vanilla JavaScript.
 
