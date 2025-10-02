@@ -103,11 +103,10 @@ aside {
 }
 
 blockquote {
-  border-left: .25rem double gainsboro;
-  border-bottom-right-radius: .25rem;
-  border-top-right-radius: .25rem;
-  margin: 0 .25rem .5rem .25rem;
-  padding: .5rem .75rem;
+  background-color: ghostwhite;
+  border-radius: .25rem;
+  margin: .5rem -.75rem;
+  padding: .75rem;
 }
 
 body {
@@ -117,7 +116,7 @@ body {
 }
 
 code {
-  background-color: whitesmoke;
+  background-color: azure;
   border-radius: .0625rem;
   display: inline-block;
   font-family: code, monospace;
@@ -223,16 +222,7 @@ ol, ul {
 
   li {
     margin-bottom: .5rem;
-    list-style-type: none;
-
-    &:before {
-      color: gainsboro;
-      content: "⦿";
-      font-size: .75rem;
-      line-height: 1.45rem;
-      position: absolute;
-      margin-left: -1rem;
-    }
+    &::marker { color: gainsboro; }
   }
 }
 
