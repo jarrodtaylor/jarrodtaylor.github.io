@@ -5,10 +5,17 @@
 
 ---
 
+- [Affect/Effect](#affect-effect)
 - [Ellipsis](#ellipsis)
 - [Shortcuts](#shortcuts)
 
 ---
+
+<h2 id="affect-effect">Affect/Effect</h2>
+
+**Affect** is a verb that approximately means _alter_.
+
+**Effect** is a noun that approximately means _result_.
 
 <h2 id="ellipsis">Ellipsis</h2>
 

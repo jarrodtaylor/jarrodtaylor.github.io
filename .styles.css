@@ -105,8 +105,8 @@ aside {
 blockquote {
   background-color: ghostwhite;
   border-radius: .25rem;
-  margin: .5rem -.75rem;
-  padding: .75rem;
+  margin: .5rem -1rem;
+  padding: .75rem 1rem;
 }
 
 body {
