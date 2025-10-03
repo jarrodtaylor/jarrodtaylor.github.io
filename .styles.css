@@ -42,7 +42,6 @@
        url("/.fonts/black.woff") format("woff2-variations"); }
 
 :root {
-  background-color: white;
   color: black;
   font: 16px/1.5 text, sans-serif;
   @media (min-width: 51rem) { font-size: 18px; }
@@ -62,6 +61,12 @@ a {
     margin: 0 -.25rem;
     text-decoration: none;
   }
+}
+
+article, header, footer {
+  margin: 0 auto;
+  width: 26rem;
+  padding: 0 1rem;
 }
 
 aside {
@@ -96,9 +101,14 @@ blockquote {
 }
 
 body {
-  margin: 0 auto;
-  max-width: 26rem;
-  padding: 0 1rem;
+  background-color: black;
+  margin: 0;
+}
+
+article {
+  position: relative;
+  *:first-child { margin-top:    0; }
+  *:last-child  { margin-bottom: 0; }
 }
 
 code {
@@ -187,11 +197,7 @@ hr {
   margin: 2rem 0;
 }
 
-main {
-  position: relative;
-  *:first-child { margin-top:    0; }
-  *:last-child  { margin-bottom: 0; }
-}
+main { background-color: white; }
 
 mark {
   background-color: greenyellow;
