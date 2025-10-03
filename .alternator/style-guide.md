@@ -79,7 +79,7 @@ Use an ellipsis as its own line to indicate intentional silence.
 
 <h2 id="shortcuts">Shortcuts</h2>
 
-Encoded pages as UTF–8 to use these characters directly;
+Encode pages as UTF–8 to use these characters directly;
 no need for HTML decimals.
 
 `<meta charset="utf-8">`
