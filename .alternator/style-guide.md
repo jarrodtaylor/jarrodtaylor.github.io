@@ -6,6 +6,7 @@
 ---
 
 - [Affect/Effect](#affect-effect)
+- [E.g./I.e.](#eg-ie)
 - [Ellipsis](#ellipsis)
 - [Shortcuts](#shortcuts)
 
@@ -16,6 +17,12 @@
 **Affect** is a verb that approximately means _alter_.
 
 **Effect** is a noun that approximately means _result_.
+
+<h2 id="eg-ie">E.g./I.e.</h2>
+
+**E.g.** means _for example_, from the Latin _exempli gratia_.
+
+**I.e.** means _in other words_, from the Latin _id est_.
 
 <h2 id="ellipsis">Ellipsis</h2>
 
