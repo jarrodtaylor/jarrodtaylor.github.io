@@ -45,7 +45,7 @@
   color: light-dark(black, snow);
   color-scheme: light dark;
   font: 16px/1.5 text, sans-serif;
-  @media (min-width: 51rem) { font-size: 18px; }
+  font-size: clamp(1rem, 2vw, 50rem);
 }
 
 ::selection { background-color: light-dark(cyan, darkcyan); }

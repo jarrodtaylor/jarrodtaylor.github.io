@@ -14,7 +14,7 @@
 
 <h2 id="affect-effect">Affect/Effect</h2>
 
-**Affect** is a verb that <mark>approximately</mark> means _alter_.
+**Affect** is a verb that approximately means _alter_.
 
 **Effect** is a noun that approximately means _result_.
 
