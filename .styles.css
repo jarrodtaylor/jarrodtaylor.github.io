@@ -201,6 +201,14 @@ hr {
   margin: 2rem 0;
 }
 
+html {
+  --bg: light-dark(white, black);
+  background: linear-gradient(
+    0deg,
+    black 0%, black 50%,
+    var(--bg) 50%, var(--bg));
+}
+
 main { background-color: light-dark(white, black); }
 
 mark {
