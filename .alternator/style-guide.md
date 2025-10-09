@@ -8,6 +8,7 @@
 - [Affect/Effect](#affect-effect)
 - [E.g./I.e.](#eg-ie)
 - [Ellipsis](#ellipsis)
+- [Emphasis](#emphasis)
 - [Shortcuts](#shortcuts)
 
 ---
@@ -58,6 +59,14 @@ Use an ellipsis as its own line to indicate intentional silence.
 > …
 > <br />
 > _Frankly, my dear, I don't give a damn._
+
+<h2 id="emphasis">Emphasis</h2>
+
+<p><mark>Highlighted</mark> text stands out when glancing.</p>
+
+**Bolded** text stands out when scanning.
+
+_Italicized_ text stands out when reading.
 
 <!-- ## Apostrophe
 

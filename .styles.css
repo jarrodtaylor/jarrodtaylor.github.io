@@ -215,9 +215,9 @@ ol, ul {
   list-style-type: "-  ";
   @media (max-width: 45rem) { list-style-type: "- "; }
 
-  li { margin-bottom: .5rem;
-    &::marker { color: silver; }
-
+  li {
+    margin-bottom: .5rem;
+    &::marker { color: darkslategray; }
   }
 }
 
