@@ -42,21 +42,19 @@
        url("/.fonts/black.woff") format("woff2-variations"); }
 
 :root {
-  color: light-dark(black, snow);
-  color-scheme: light dark;
+  color: black;
   font: 16px/1.5 text, sans-serif;
   font-size: clamp(1rem, 2vw, 50rem);
 }
 
-::selection { background-color: light-dark(cyan, darkcyan); }
+::selection { background-color: cyan; }
 
 a {
   color: inherit;
   text-decoration: underline;
 
   &:hover, &:hover strong {
-    background-color: light-dark(yellow, gold);
-    border-radius: .0625rem;
+    background-color: yellow;
     color: black !important;
     padding: 0 .25rem;
     margin: 0 -.25rem;
@@ -67,16 +65,15 @@ a {
 article, header, footer {
   margin: 0 auto;
   padding: 0 1rem;
-  width: 26rem;
+  max-width: 26rem;
 }
 
 aside {
   @media (max-width: 45rem) { display: none; }
 
-  color: cadetblue;
+  color: darkcyan;
   font-size: .9rem;
   font-family: handwriting;
-  font-weight: 400;
   line-height: 1.1rem;
   position: absolute;
   width: 7.5rem;
@@ -95,9 +92,7 @@ aside {
 }
 
 blockquote {
-  background-color: light-dark(ghostwhite, #111);
-  border-radius: .25rem;
-  color: light-dark(darkslategray, ghostwhite);
+  background-color: ghostwhite;
   margin: .5rem -1rem;
   padding: .75rem 1rem;
 }
@@ -114,8 +109,7 @@ article {
 }
 
 code {
-  background-color: light-dark(azure, #111);
-  border-radius: .0625rem;
+  background-color: aliceblue;
   display: inline-block;
   font-family: code, monospace;
   font-size: .875rem;
@@ -126,10 +120,10 @@ code {
 
 footer {
   font-size: 0;
-  padding: 3rem 0;
+  padding: 3rem 1rem;
 
   a {
-    color: light-dark(silver, dimgray);
+    color: silver;
     font-size: 1rem;
     font-weight: 500;
     margin-right: 1rem;
@@ -155,20 +149,18 @@ img, video {
 h1, h2{ font-size: 1rem; }
 
 h1 {
-  color: light-dark(inherit, white);
   font-weight: 900;
   margin: 2rem 0 1rem 0;
   text-transform: uppercase;
 }
 
 h2 {
-  color: light-dark(firebrick, greenyellow);
+  color: firebrick;
   font-weight: 700;
   margin: 2rem 0 .5rem 0;
 }
 
 h3 {
-  color: light-dark(inherit, white);
   font-weight: 700;
   font-variant: all-small-caps;
   margin: 1rem 0 .5rem 0;
@@ -177,7 +169,7 @@ h3 {
 header {
   font-size: 0;
   font-weight: 500;
-  padding: 3rem 0;
+  padding: 3rem 1rem;
 
   a {
     font-size: 1rem;
@@ -186,34 +178,31 @@ header {
     &:hover { margin-right: .75rem; }
   }
 
-  a:first-child { color: light-dark(mediumblue, deepskyblue); }
+  a:first-child { color: mediumblue; }
 
   a:last-child {
-    color: light-dark(silver, dimgray);
+    color: silver;
     text-transform: lowercase;
   }
 }
 
 hr {
   border: none;
-  background-color: light-dark(whitesmoke, #111);
+  background-color: whitesmoke;
   height: .25rem;
   margin: 2rem 0;
 }
 
 html {
-  --bg: light-dark(white, black);
-  background: linear-gradient(
-    0deg,
-    black 0%, black 50%,
-    var(--bg) 50%, var(--bg));
+  background: linear-gradient(0deg,
+    black 0%,  black 50%,
+    white 50%, white);
 }
 
-main { background-color: light-dark(white, black); }
+main { background-color: white; }
 
 mark {
-  background-color: aqua;
-  border-radius: .0625rem;
+  background-color: greenyellow;
   color: black;
   font-weight: 500;
   padding: 0 .125rem;
@@ -223,10 +212,12 @@ mark {
 ol, ul {
   margin: 0 0 .5rem 0;
   padding: 0;
+  list-style-type: "-  ";
+  @media (max-width: 45rem) { list-style-type: "- "; }
 
-  li {
-    margin-bottom: .5rem;
-    &::marker { color: light-dark(lavender, #333); }
+  li { margin-bottom: .5rem;
+    &::marker { color: silver; }
+
   }
 }
 
