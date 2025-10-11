@@ -6,6 +6,14 @@
   font-display: swap; font-family: handwriting;
   src: url("/.fonts/handwriting.woff"); }
 @font-face {
+  font-display: swap; font-family: mikado; font-style: normal;
+  src: url("/.fonts/var-upright.woff") format("woff2 supports variations"),
+       url("/.fonts/var-upright.woff") format("woff2-variations"); }
+@font-face {
+  font-display: swap; font-family: mikado; font-style: italic;
+  src: url("/.fonts/var-italic.woff") format("woff2 supports variations"),
+       url("/.fonts/var-italic.woff") format("woff2-variations"); }
+@font-face {
   font-display: swap;   font-family: text;
   font-stretch: normal;  font-style: normal; font-weight: 300;
   src: url("/.fonts/light.woff") format("woff2 supports variations"),
@@ -43,14 +51,16 @@
 
 :root {
   color: black;
-  font: 16px/1.5 text, sans-serif;
-  font-size: clamp(1rem, 2vw, 50rem);
+  font: 16px/1.5 mikado, text, sans-serif;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-weight: 350;
 }
 
 ::selection { background-color: cyan; }
 
 a {
   color: inherit;
+  font-weight: 400;
   text-decoration: underline;
 
   &:hover, &:hover strong {
@@ -71,10 +81,10 @@ article, header, footer {
 aside {
   @media (max-width: 45rem) { display: none; }
 
-  color: darkcyan;
-  font-size: .9rem;
+  color: indigo;
+  /* font-size: .9rem; */
   font-family: handwriting;
-  line-height: 1.1rem;
+  line-height: 1.25rem;
   position: absolute;
   width: 7.5rem;
 
@@ -93,6 +103,8 @@ aside {
 
 blockquote {
   background-color: ghostwhite;
+  color: darkslategray;
+  font-weight: 400;
   margin: .5rem -1rem;
   padding: .75rem 1rem;
 }
@@ -118,18 +130,24 @@ code {
   margin: 0 -.125rem;
 }
 
-footer {
+footer, header {
   font-size: 0;
   padding: 3rem 1rem;
 
   a {
     color: silver;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 450;
     margin-right: 1rem;
     text-decoration: none;
     text-transform: lowercase;
+
     &:hover { margin-right: .75rem; }
+  }
+
+  a[href="mailto:email@jarrodtaylor.me"] {
+    color: mediumblue;
+    font-weight: 500;
   }
 }
 
@@ -146,7 +164,7 @@ img, video {
   width: calc(100% + 2rem);
 }
 
-h1, h2{ font-size: 1rem; }
+h1, h2, h3 { font-size: 1rem; }
 
 h1 {
   font-weight: 900;
@@ -156,34 +174,14 @@ h1 {
 
 h2 {
   color: firebrick;
-  font-weight: 700;
+  font-weight: 600;
   margin: 2rem 0 .5rem 0;
 }
 
 h3 {
-  font-weight: 700;
+  font-weight: 550;
   font-variant: all-small-caps;
   margin: 1rem 0 .5rem 0;
-}
-
-header {
-  font-size: 0;
-  font-weight: 500;
-  padding: 3rem 1rem;
-
-  a {
-    font-size: 1rem;
-    margin-right: 1rem;
-    text-decoration: none;
-    &:hover { margin-right: .75rem; }
-  }
-
-  a:first-child { color: mediumblue; }
-
-  a:last-child {
-    color: silver;
-    text-transform: lowercase;
-  }
 }
 
 hr {
@@ -204,7 +202,7 @@ main { background-color: white; }
 mark {
   background-color: greenyellow;
   color: black;
-  font-weight: 500;
+  font-weight: 450;
   padding: 0 .125rem;
   margin: 0 -.125rem;
 }
@@ -221,11 +219,8 @@ ol, ul {
   }
 }
 
-p {
-  margin: 0 0 .5rem 0;
-  strong { font-weight: 700; }
-}
+p { margin: 0 0 .5rem 0; }
 
-strong { font-weight: 500; }
+strong { font-weight: 550; }
 
 table { width: 100%; }

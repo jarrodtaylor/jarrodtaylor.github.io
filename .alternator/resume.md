@@ -7,8 +7,8 @@
 ---
 
 - <a href="/.downloads/Jarrod-Taylor-resume.pdf" download>Download</a> as a PDF
-- Go to [Employment History](#employment-history)
-- Go to [Contract Gigs](#contract-gigs)
+- [Employment History](#employment-history)
+- [Contract Gigs](#contract-gigs)
 
 ---
 
@@ -263,6 +263,8 @@ program, having processed over $5 billion in payments while saving hundreds of
 thousands of customers 10¢/gallon.
 
 ### PayPal ~ 2014
+
+<aside class="right">We built this before NFC was available.</aside>
 
 PayPal is a financial technology company operating an online payments system. I
 coordinated with dozens of teams to build a pair of mobile app SDKs for
