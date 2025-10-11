@@ -28,29 +28,32 @@ Palm Beach, FL**.
 
 ### Associate Partner @ Syrinx/Maris Consulting ~ 2013–2024
 
-In 2013 I started at Syrinx Consulting as a customer–facing Senior
-Software Engineer where I contracted with dozens of companies all around
+In 2013 I started at Syrinx Consulting as a <mark>customer–facing Senior
+Software Engineer</mark> where I contracted with dozens of companies all around
 the US. We turned ideas into shipping products and scaled services to millions
 of users.
 
 In 2016 I was made an associate partner and, in addition to hands–on
-development, was involved in sales engineering, project discovery/scoping,
-putting teams together, and acting as a project lead and product manager.
+development, was involved in <mark>sales engineering</mark>, <mark>project
+discovery/scoping</mark>, <mark>putting teams together</mark>, and acting as a
+ <mark>project lead</mark> and <mark>product manager</mark>.
 
-In 2022 Syrinx was acquired by DeWinter Group and began operating
+In 2022 Syrinx was <mark>acquired by DeWinter Group</mark> and began operating
 as Maris Consulting.
 
 ### Managing Member @ Screen Sized ~ 2012–2013
 
-Screen Sized was a web development agency. We built the platform that
+<aside class="left">Door–to–door sales is rough.</aside>
+
+Screen Sized was a web development agency. We built the <mark>platform that
 managed block ticket sales for sites like Grand Prix Experiences and NFL Pro
-Bowl On Location.
+Bowl On Location</mark>.
 
 ### Cofounder + CTO @ City Slicking ~ 2011
 
 City Slicking was a startup that advertised locally for small businesses using
-quantity discounts/assurance contracts as promotions. I built all the
-things.
+quantity discounts/assurance contracts as promotions. <mark>I built all the
+things</mark>.
 
 ### Research & Development Engineer @ Front Porch ~ 2011
 
@@ -59,14 +62,14 @@ things.
 Front Porch is a hotspot ISP and advertising platform whose main product at the
 time was a router for hotels that showed ads when visitors joined their wifi
 network. The growth of 3G necessitated a new strategy. My role was to
-foster ideas and turn them into prototypes, bypassing the typically slow
-engineering timelines and red tape.
+ <mark>foster ideas and turn them into prototypes, bypassing the typically slow
+engineering timelines and red tape</mark>.
 
 ### UX Designer + Full–Stack Developer @ eKwipper ~ 2009–2011
 
 <aside class="left">My first startup experience.</aside>
 
-I was employee #5 at eKwipper, a platform for managing grocery
+I was <mark>employee #5</mark> at eKwipper, a platform for managing grocery
 coupons that would consolidate savings into a single barcode, integrating with
 cash registers and clearinghouses. I was first brought on to create the consumer
 desktop web app. Once that was stable, I redesigned and rebuilt the mobile app,
@@ -92,20 +95,22 @@ promote their product.
 
 ### Fidelity Investments ~ 2022–2024
 
+<aside class="left">This was two back–to–back contracts.</aside>
+
 Fidelity Investments serves over 40 million investors and manages over $9
 trillion in customer assets. I worked with their OnSite Hub team to ship an
 internal app for staff to book desks and conference rooms that fit their
-hybrid schedules and coordinate in–person working sessions with their
-teams. I then worked with their Bloom team to build the scalable
-configuration system that customizes the Bloom apps for universities and
+hybrid schedules and <mark>coordinate in–person working sessions with their
+teams</mark>. I then worked with their Bloom team to <mark>build the scalable
+configuration system</mark> that customizes the Bloom apps for universities and
 corporate sponsors.
 
 ### PrismHR ~ 2022–2024
 
 PrismHR is the leading HR platform for companies to manage their payroll,
 benefits, compliance, and other HR responsibilities. We worked together to build
-cross–platform mobile apps around their Employee Portal, with private
-label builds branded for Prism customers.
+cross–platform mobile apps around their Employee Portal, with <mark>private
+label builds</mark> branded for Prism customers.
 
 ###  LandrumHR ~ 2023
 
@@ -122,11 +127,13 @@ mobile apps for their employee portal based on the PrismHR private label apps.
 
 ### IDEXX Laboratories ~ 2021–2022
 
+<aside class="right">Lots of talent on that team.</aside>
+
 IDEXX is a leader in pet healthcare, serving veterinarians around the world with
 diagnostic and information tech–based products/services. Their Preventative Care
 Challenge tool allows vets access to customized testing panels and protocols,
 pet owner communication tools, and personalized training. I worked alongside the
-PCC team on their Australian market rollout. We handled AU English
+PCC team on their <mark>Australian market rollout</mark>. We handled AU English
 localization, integrated SAP Global, added support for AU–specific test panels,
 pricing, and discounts, created custom reporting, revamped the emailing system,
 then hired and trained new developers to take over.
@@ -139,36 +146,38 @@ to a mobile first design.
 
 ### Syrinx Consulting ~ 2021
 
-I redesigned and developed our own marketing website with a custom GitHub
-Wiki as a custom CMS.
+I redesigned and developed our own marketing website with a custom <mark>GitHub
+Wiki as a custom CMS</mark>.
 
 ### Tg2 Solutions ~ 2019–2021
 
 Tg2 provides complete solutions for field–oriented organizations looking to
 streamline operations. I led the mobile development of DataSolv, their
-cross–platform app that collects and manages inspection data, creating a
-new dynamic UX for input forms, data sync, custom reporting, and map
+cross–platform app that collects and manages inspection data, <mark>creating a
+new dynamic UX for input forms</mark>, data sync, custom reporting, and map
 visualization tools.
 
 ### See Yourself Health ~ 2020
 
+<aside class="left">The type of app people think they need AI for now.</aside>
+
 See Yourself Health connects diabetics with fellow peers and health
 professionals to create a community striving towards better health. I led the
 development of a cross–platform mobile app featuring an animated, interactive
-avatar that helped patients track and report symptoms.
+avatar that <mark>helped patients track and report symptoms</mark>.
 
 ### Sefas Innovation ~ 2020
 
 Sefas is a global leader in omni channel customer communications management.
-I worked with their engineering team to develop composable, configurable
-UX components for their customer onboarding and job tracking apps.
+I worked with their engineering team to <mark>develop composable, configurable
+UX components</mark> for their customer onboarding and job tracking apps.
 
 ### octoScope ~ 2020
 
 octoScope is the market leader in isolated, repeatable, and automated wireless
-personal testbeds. We ported their network traffic tool, multiPerf, from
+personal testbeds. We ported their network traffic tool, multiPerf, <mark>from
 C++ to run on iOS and developed a way for the new app to communicate with
-servers via Ethernet.
+servers via Ethernet</mark>.
 
 ### Iron Mountain ~ 2019
 
@@ -184,12 +193,16 @@ their customer facing web app.
 
 ### CloudHealth by VMWare ~ 2018–2019
 
+<aside class="right">
+  There was a spot nearby with the BEST Aussie meat pies!
+</aside>
+
 CloudHealth provides cloud computing services related to cost management,
 governance, automation, security, and performance. I worked with their UX
-team to implement a new design system, their frontend teams to
- build new features for tracking server health, and their backend
-teams convert their internal APIs to RESTful services and to
- integrate new third–party APIs.
+team to <mark>implement a new design system</mark>, their frontend teams to
+ <mark>build new features for tracking server health</mark>, and their backend
+teams <mark>convert their internal APIs to RESTful services</mark> and to
+ <mark>integrate new third–party APIs</mark>.
 
 ### Crowd Lending, Inc. ~ 2018
 
@@ -204,10 +217,12 @@ architecture, development, and testing of their internal reporting portal.
 
 ### TSD Mobility Solutions ~ 2017
 
+<aside class="left">All the scooter rentals starting doing this.</aside>
+
 TSD develops fleet mobility solutions for auto dealerships, manufacturers,
 groups, and rental companies. I led the development of their private label
-mobile apps that enable customers to rent vehicles on the fly using QR
-codes.
+mobile apps that enable customers to <mark>rent vehicles on the fly using QR
+codes</mark>.
 
 ### Mirion Meriden Corp. ~ 2017
 
@@ -219,10 +234,12 @@ management app from Flash to HTML + vanilla JavaScript.
 
 SmartBear provides a portfolio of tools that give software development
 teams around the world visibility into end–to–end quality. We prototyped a
- custom cross–platform mobile browser designed for automating
-testing.
+ <mark>custom cross–platform mobile browser designed for automating
+testing</mark>.
 
 ### UWeave ~ 2016
+
+<aside class="right">No hierarchal structure in the UX model.</aside>
 
 UWeave was a cross–platform mobile news app with an innovative UX. We worked
 together to come up with a circular navigation interface.
@@ -236,15 +253,15 @@ patient record tracking system that was installed on–site in dental offices.
 ### Odysee, GoalMate, FlashTag ~ 2015
 
 Odysee, GoalMate, and FlashTag were a trio of mobile social networking apps
-based around pictures and videos. I worked directly with the founders to
-develop MVP versions of all three apps from the ground up and launch them
+based around pics and videos. I worked <mark>directly with the founders to
+develop MVP versions</mark> of all three apps from scratch and launch them
 in the app stores.
 
 ### Upland Localytics ~ 2015
 
 Localytics is a mobile marketing solution for creating personalized mobile app
-experiences that drive engagement, loyalty, and conversion. I integrated
-Twitter’s advertising API into their app and consulted on the design of
+experiences that drive engagement, loyalty, and conversion. <mark>I integrated
+Twitter’s advertising API into their app</mark> and consulted on the design of
 their payment processing integrations.
 
 ### Conjur, Inc. ~ 2015
@@ -254,36 +271,38 @@ and the people who work with them. I helped with AWS config setup and training.
 
 ### Cumberland Farms ~ 2013–2015
 
+<aside class="left">Ruby on the JVM‽</aside>
+
 Cumberland Farms operates over five hundred retail stores, gas stations, and a
 support system including petroleum and grocery distribution operations. I worked
 with a team of three engineers to build the initial version of the SmartPay app,
 mid–tier services, high–availability servers, and pay–at–the–pump technology.
-The platform is one of the first successful examples of a decoupled debit card
-program, having processed over $5 billion in payments while saving hundreds of
-thousands of customers 10¢/gallon.
+ <mark>The platform is one of the first successful examples of a decoupled debit
+card program, having processed over $5 billion in payments</mark> while saving
+hundreds of thousands of customers 10¢/gallon.
 
 ### PayPal ~ 2014
 
-<aside class="right">We built this before NFC was available.</aside>
+<aside class="right">Before phones had NFC chips.</aside>
 
 PayPal is a financial technology company operating an online payments system. I
 coordinated with dozens of teams to build a pair of mobile app SDKs for
-retailers to leverage PayPal’s services in their own apps and then developed a
-new way to handle digital in–store payments using Bluetooth Low Energy to
-interface with registers.
+retailers to leverage PayPal’s services in their own apps and then
+ <mark>developed a new way to handle digital in–store payments using Bluetooth
+Low Energy to interface with registers</mark>.
 
 ### Altman Vilandrie & Company ~ 2014
 
 Altman is one of the world’s largest global strategy consulting firms. I paired
-with their backend engineering team to develop a statistical significance
-algorithm for brand health tracking data and consulted on system architecture
-for the then–upcoming new version of their platform.
+with their backend engineering team to <mark>develop a statistical significance
+algorithm</mark> for brand health tracking data and consulted on system
+architecture for the then–upcoming new version of their platform.
 
 ### Verizon ~ 2014
 
 Verizon is the world’s second largest telecommunications company. I helped their
-advertising department by building proof–of–concept apps to showcase the
-possibilities of advertising on their mobile network.
+advertising department by <mark>building proof–of–concept apps</mark> to showcase
+the possibilities of advertising on their mobile network.
 
 ### Arcadia Healthcare Solutions ~ 2013–2014
 
