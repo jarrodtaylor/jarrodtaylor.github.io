@@ -1,5 +1,7 @@
 ---
 @layout: .layout.html
+@pageTitle: Résumé
+@pageID: resume
 ---
 
 # Résumé
@@ -301,8 +303,8 @@ architecture for the then–upcoming new version of their platform.
 ### Verizon ~ 2014
 
 Verizon is the world’s second largest telecommunications company. I helped their
-advertising department by <mark>building proof–of–concept apps</mark> to showcase
-the possibilities of advertising on their mobile network.
+advertising department by <mark>building proof–of–concept apps</mark> to
+showcase the possibilities of advertising on their mobile network.
 
 ### Arcadia Healthcare Solutions ~ 2013–2014
 

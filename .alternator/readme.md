@@ -1,5 +1,6 @@
 ---
 @layout: .layout.html
+@pageID: readme
 ---
 
 ## Projects
@@ -29,17 +30,16 @@
 - [**Scaring with Sammy**][sammy]<br />
   Bite–sized scare acting lessons.
 
-## Reference Docs
+## Miscellany
 
 - [**Résumé**](/resume)<br />
   Summary of my profressional experience.
-- [**Style Guide**][style-guide]<br />
-  Reference for remembering how to write on the web.
+- [**Style Guide**](/style-guide)<br />
+  Guide for remembering how to write on the web.
 
 [alternator]: https://alternator.sh
 [chassis]: https://rubygems.org/gems/sinatra-chassis
 [degenerate-baker]: https://degeneratebaker.com
 [richard]: https://richard.is
 [sammy]: https://scaringwithsammy.com
-[style-guide]: /style-guide
 [wss]: https://weshipsoftware.com

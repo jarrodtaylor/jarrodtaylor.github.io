@@ -206,7 +206,7 @@ mark {
   margin: 0 -.125rem;
 }
 
-ol, ul {
+hr + ul, body#readme ul {
   margin: 0 0 .5rem 0;
   padding: 0;
   list-style-type: "-  ";
@@ -223,3 +223,7 @@ p { margin: 0 0 .5rem 0; }
 strong { font-weight: 550; }
 
 table { width: 100%; }
+
+body#style-guide {
+  table tr td:first-child { text-align: center; }
+}

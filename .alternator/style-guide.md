@@ -1,6 +1,9 @@
 ---
 @layout: .layout.html
+@pageTitle: Style Guide
+@pageID: style-guide
 ---
+
 # Style Guide
 
 ---
@@ -97,11 +100,7 @@ no need for HTML decimals.
 | – &nbsp; | En-dash            | `Option + -`         |
 |	—	&nbsp; | Em-dash            | `Option + Shift + -` |
 |	…	&nbsp; | Ellipsis           |	`Option + ;`         |
-| ‘	&nbsp; | Quotations, single	| `Option + ]`         |
-| ’	&nbsp; | 	                  | `Option + Shift + ]` |
-| “	&nbsp; | Quotations, double	| `Option + [`         |
-| ”	&nbsp; |                  	| `Option + Shift + [` |
-
-<style>
-  table tr td:first-child { text-align: center; }
-</style>
+| ‘	&nbsp; | Quotations       	| `Option + ]`         |
+| ’	&nbsp; |                    | `Option + Shift + ]` |
+| “	&nbsp; |                    | `Option + [`         |
+| ”	&nbsp; |                    | `Option + Shift + [` |
